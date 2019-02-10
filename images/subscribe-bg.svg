@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="864px" height="368px" viewBox="0 0 864 368" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>subscribe-bg</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="4" transform="translate(-53.000000, -983.000000)">
+            <g id="subscribe-bg" transform="translate(68.500000, 983.000000)">
+                <rect id="Rectangle" fill="#FC5D60" x="68.5" y="12" width="710" height="356" rx="178"></rect>
+                <g id="Group-2">
+                    <path d="M473.7129,13.5 L576.2889,13.5" id="Stroke-3" stroke="#F9C7DC" stroke-width="27" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M111.2647,88.8672 L165.5057,88.8672" id="Stroke-7" stroke="#FFFFFF" stroke-width="27" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M255.0977,49.333 L416.4067,49.333" id="Stroke-9" stroke="#F9C7DC" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M0,156.833 L50.689,156.833" id="Stroke-11" stroke="#F9C7DC" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M745.332,91.833 L847.906,91.833" id="Stroke-15" stroke="#FF5C5C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M486.2793,13.541 C486.2793,20.961 480.2653,26.979 472.8413,26.979 C465.4203,26.979 459.4043,20.961 459.4043,13.541 C459.4043,6.12 465.4203,0.103 472.8413,0.103 C480.2653,0.103 486.2793,6.12 486.2793,13.541" id="Fill-5" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
