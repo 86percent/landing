@@ -6,11 +6,16 @@ $theme-colors: (
         "secondary": #383A8E
 );
 
+$border-radius: 0.5rem;
+$border-radius-lg: 0.6rem;
+$border-radius-sm: 0.4rem;
+
 @import "../bootstrap/scss/bootstrap";
 
 .text-primary {
   color: $primary;
 }
+
 
 .solid {
   background: #FFFFFFFF !important;
