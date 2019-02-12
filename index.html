@@ -72,6 +72,36 @@
 
         }
     </style>
+
+    <script type="text/javascript">
+        (function(e,t){var n=e.amplitude||{_q:[],_iq:{}};var r=t.createElement("script")
+        ;r.type="text/javascript";r.async=true
+        ;r.src="https://cdn.amplitude.com/libs/amplitude-4.5.2-min.gz.js"
+        ;r.onload=function(){if(e.amplitude.runQueuedFunctions){
+            e.amplitude.runQueuedFunctions()}else{
+            console.log("[Amplitude] Error: could not load SDK")}}
+        ;var i=t.getElementsByTagName("script")[0];i.parentNode.insertBefore(r,i)
+        ;function s(e,t){e.prototype[t]=function(){
+            this._q.push([t].concat(Array.prototype.slice.call(arguments,0)));return this}}
+            var o=function(){this._q=[];return this}
+            ;var a=["add","append","clearAll","prepend","set","setOnce","unset"]
+            ;for(var u=0;u<a.length;u++){s(o,a[u])}n.Identify=o;var c=function(){this._q=[]
+                ;return this}
+            ;var l=["setProductId","setQuantity","setPrice","setRevenueType","setEventProperties"]
+            ;for(var p=0;p<l.length;p++){s(c,l[p])}n.Revenue=c
+            ;var d=["init","logEvent","logRevenue","setUserId","setUserProperties","setOptOut",
+                "setVersionName","setDomain","setDeviceId","setGlobalUserProperties","identify",
+                "clearUserProperties","setGroup","logRevenueV2","regenerateDeviceId","logEventWithTimestamp",
+                "logEventWithGroups","setSessionId","resetSessionId"]
+            ;function v(e){function t(t){e[t]=function(){
+                e._q.push([t].concat(Array.prototype.slice.call(arguments,0)))}}
+                for(var n=0;n<d.length;n++){t(d[n])}}v(n);n.getInstance=function(e){
+                e=(!e||e.length===0?"$default_instance":e).toLowerCase()
+                ;if(!n._iq.hasOwnProperty(e)){n._iq[e]={_q:[]};v(n._iq[e])}return n._iq[e]}
+            ;e.amplitude=n})(window,document);
+
+        amplitude.getInstance().init("ca54de961e7a5197708ab249b7550f24");
+    </script>
 </head>
 <body>
 
@@ -92,7 +122,7 @@
             <div class="row align-items-center h-100">
                 <div class="col-12 col-lg-4 col-xl-5">
                     <h1 class="display-4 font-weight-bold"><span class="text-primary">Talk to your users.</span> Increase conversion.</h1>
-                    <p>Eightysix% is the best platform to build conversational interfaces for User Onboarding on  iOS and Android.</p>
+                    <p><strong>86% SDK</strong> is the best platform to turn all the forms in your native <i class="fab fa-apple"></i> iOS and <i class="fab fa-android"></i> Android applications into smooth and beautiful <strong>conversations</strong>.</p>
 
                     <!--Modal: Name-->
                     <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -125,19 +155,19 @@
 
                     <!-- TODO d-none d-md-block -->
                     <button type="button" class="btn btn-primary transition-3d-hover text-left mb-2" data-toggle="modal" data-target="#modal1">
-                                    <span class="media align-items-center">
-                                    <span class="fab fa-youtube fa-2x mr-3"></span>
-                                    <span class="media-body">
-                                        <span class="d-block"><small>Watch on Youtube</small></span>
-                                      <strong class="font-size-1">86% SDK overview</strong>
-                                    </span>
-                                  </span>
+                        <span class="media align-items-center">
+                            <span class="fab fa-youtube fa-2x mr-3"></span>
+                            <span class="media-body">
+                                <span class="d-block"><small>Watch on Youtube</small></span>
+                                <strong class="font-size-1">86% SDK overview</strong>
+                            </span>
+                        </span>
                     </button>
 
 
                     <!-- TODO d-block d-md-none -->
-                    <div class="d-block d-md-none">
-                        <p>To learn more about 86%, try out the demo Apps!</p>
+                    <div class="d-none">
+                        <p>To learn more about 86% SDK, try out the demo Apps!</p>
                                 <!-- Button -->
                                 <button type="button"
                                         class="btn btn-xs btn-dark transition-3d-hover text-left mb-2 mr-1">
@@ -163,7 +193,8 @@
                                 </button>
                     </div>
                 </div>
-                <div class="col h-100 w-100 text-right" > <!-- style="background: url('images/1.svg') no-repeat right bottom; background-size: contain; " -->
+                <div class="col h-100 w-100 text-center" > <!-- style="background: url('images/1.svg') no-repeat right bottom; background-size: contain; " -->
+                    <!--<img src="images/form-to-bot.png" class="img-fluid" />-->
                     <img src="images/1.png" class="img-fluid" style="margin-top: 64px;">
                 </div>
             </div>
@@ -173,13 +204,13 @@
     <section id="section2" class="d-none d-md-block">
         <div class="container text-light">
             <div class="row align-items-center h-100">
-                <div class="col align-self-end">
+                <div class="col-lg-6 align-self-end d-none d-lg-block">
                     <img src="images/rocket.png" style="margin-top: 64px;"/>
                 </div>
-                <div class="col-lg-5 col-md-6 text-right align-self-center">
+                <div class="col-12 col-lg-6 text-right align-self-center">
                     <img src="images/planet.png" style="margin-bottom: 64px;margin-right: 64px;">
                     <h1 class="display-4 font-weight-bold"><span class="text-primary">User onboarding.</span> Perfected.</h1>
-                    <p>Eightysix% is the best platform to build conversational interfaces for User Onboarding on iOS and Android.</p>
+                    <p>Onbarding users is tough. 86% SDK allows you to talk to them while gathering all the information you need for your mobile Apps.</p>
                 </div>
             </div>
         </div>
@@ -190,8 +221,8 @@
             <div class="row align-items-center h-100">
                 <div class="col-5">
                     <h1 class="display-4 font-weight-bold"><span class="text-dark"><del>No forms.</del></span> Conversations.</h1>
-                    <p>People hate forms. But your App's value mostly relies on user's data. We fixed this, with conversational interfaces.
-                        Conversational interfaces are more human, dramatically smoother than forms, and help you sharing your DNA with your App's users. And people are so familiar with messaging-like interfaces, that they will read what you write. Awesome, right?</p>
+                    <p>People hate forms. But your App's value mostly relies on user's data. <br/>We fixed this, with conversational interfaces.
+                        Conversational interfaces are <strong>more human</strong>, dramatically smoother than forms, and help you sharing your DNA with your App's users. And people are so familiar with messaging-like interfaces, that <strong>they will read what you write</strong>.<br/>Awesome, right?</p>
                 </div>
                 <div class="col h-100 w-100 text-right" > <!-- style="background: url('images/1.svg') no-repeat right bottom; background-size: contain; " -->
                     <img src="images/3.png" class="img-fluid" style="margin-top: 64px;">
@@ -205,7 +236,11 @@
             <div class="row text-center">
                 <div class="col">
                     <h1 class="display-4 font-weight-bold" style="margin-top:64px;"><span class="text-secondary">Simple.</span> Beautiful.</h1>
-                    <p>Define your conversation within our web editor, publish it and play it using 86% SDK on iOS and Android.</p>
+                    <p>3 simple steps will get your conversational interface up and running and you'll be ready to turn all your forms into smooth and simple conversations.</p>
+
+                    <!--<p>In 3 simple steps you get your conversational interface up and running:</p>-->
+                    <!--<p><span class="badge badge-pill badge-primary"><strong style="font-size: 2em;">1</strong></span> Define your conversation within our web editor.</p>-->
+                    <!--<img src="images/editor.png" class="img-fluid" />-->
                 </div>
             </div>
             <div class="row" style="background: url('images/86_arrow.svg') no-repeat center center;">
@@ -293,11 +328,12 @@
         <!--</div>-->
         <div class="col-6 col-md">
             <h5>Documentation</h5>
-            <ul class="list-unstyled text-small">
-                <li><a class="text-muted" href="https://86percent.github.io/docs/quickStart.html">Getting started</a></li>
-                <li><a class="text-muted" href="https://86percent.github.io/docs/editor.html">Editor documentation</a></li>
-                <li><a class="text-muted" href="https://86percent.github.io/docs/sdk.html">SDK documentation</a></li>
-            </ul>
+            <p class="text-muted"><em>Coming soon</em></p>
+            <!--<ul class="list-unstyled text-small">-->
+                <!--<li><a class="text-muted" href="https://86percent.github.io/docs/quickStart.html">Getting started</a></li>-->
+                <!--<li><a class="text-muted" href="https://86percent.github.io/docs/editor.html">Editor documentation</a></li>-->
+                <!--<li><a class="text-muted" href="https://86percent.github.io/docs/sdk.html">SDK documentation</a></li>-->
+            <!--</ul>-->
         </div>
         <div class="col-6 col-md">
             <h5>About</h5>
