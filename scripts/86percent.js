@@ -1,10 +1,12 @@
 $(document).ready(function() {
     // Transition effect for navbar
     $(window).scroll(function() {
-        if($(this).scrollTop() > 100) {
-            $('.navbar').addClass('solid');
+        if($(this).scrollTop() > 64) {
+            $('#navigation').addClass('navbar-solid');
+            $('#navigation').removeClass('navbar-transparent');
         } else {
-            $('.navbar').removeClass('solid');
+            $('#navigation').removeClass('navbar-solid');
+            $('#navigation').addClass('navbar-transparent');
         }
     });
 });

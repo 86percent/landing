@@ -43,6 +43,11 @@
             height:64px !important;
         }
 
+        #section0 {
+            background: url("images/stars.svg") repeat top left, linear-gradient(45deg, #212354, #524194);
+            background-size: cover;
+        }
+
         #section1 {
             padding-top:64px !important;
             background: linear-gradient(135deg, #ffffff 30%, #F8C2D9);
@@ -107,21 +112,53 @@
 
 <!-- Nav -->
 <header>
-    <nav class="navbar fixed-top navbar-light bg-transparent">
-        <h5 class="my-0 mr-md-auto font-weight-normal text-hide" style="background-image: url('images/eightysix_long.svg');height: 48px; width: 128px;">EightySix %</h5>
-
+    <nav id="navigation" class="navbar fixed-top navbar-light navbar-transparent" style="z-index:1100">
+        <h5 class="my-0 mr-md-auto font-weight-normal text-hide" style="background-image: url('images/eightysix_long.svg');height: 48px; width: 128px;">86% SDK</h5>
         <!--<a class="btn btn-outline-primary" href="#">Login to 86% Editor</a>-->
+    </nav>
+    <nav id="transparent-navigation" class="navbar fixed-top navbar-light" style="z-index:1099">
+        <h5 class="my-0 mr-md-auto font-weight-normal text-hide" style="background-image: url('images/eightysix_long_white.svg');height: 48px; width: 128px;">86% SDK</h5>
+    </nav>
+
     </nav>
 </header>
 
 <main id="content" role="main" >
 
     <!-- HOME -->
+    <section id="section0" class="pb-lg-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3 text-center">
+                    <img src="images/form-to-bot.png" class="mt-5 img-fluid w-100" title="Talk to your users. Increase conversion." alt="Talk to your users. Increase conversion."/>
+                </div>
+                <div class="col-12 text-light text-center">
+                    <h1 class="display-4 font-weight-bold text-center">
+                        <span class="text-primary">Talk to your users.</span> Increase conversion.
+                    </h1>
+                    <p><strong>86% SDK</strong> is the best platform to turn all the forms in your native <i class="fab fa-apple"></i> iOS and <i class="fab fa-android"></i> Android applications into smooth and beautiful <strong>conversations</strong>.</p>
+                    <!-- TODO d-none d-md-block -->
+                    <button type="button" class="btn btn-primary transition-3d-hover text-left mb-2" data-toggle="modal" data-target="#modal1">
+                        <span class="media align-items-center">
+                            <span class="fab fa-youtube fa-2x mr-3"></span>
+                            <span class="media-body">
+                                <span class="d-block"><small>Watch on Youtube</small></span>
+                                <strong class="font-size-1">86% SDK overview</strong>
+                            </span>
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="section1">
-        <div class="container h-100">
-            <div class="row align-items-center h-100">
+        <div class="container">
+            <div class="row align-items-center">
                 <div class="col-12 col-lg-4 col-xl-5">
-                    <h1 class="display-4 font-weight-bold"><span class="text-primary">Talk to your users.</span> Increase conversion.</h1>
+                    <h1 class="display-4 font-weight-bold">
+                        <span class="text-primary">Forms.</span> Humanized.
+                    </h1>
                     <p><strong>86% SDK</strong> is the best platform to turn all the forms in your native <i class="fab fa-apple"></i> iOS and <i class="fab fa-android"></i> Android applications into smooth and beautiful <strong>conversations</strong>.</p>
 
                     <!--Modal: Name-->

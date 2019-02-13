@@ -7480,8 +7480,15 @@ a.text-dark:hover, a.text-dark:focus {
 .text-primary {
   color: #007bff; }
 
-.solid {
+.navbar-solid {
+  opacity: 1;
   background: #FFFFFFFF !important;
+  transition: background-color 0.5s ease 0s;
+  box-shadow: 0 0 4px #00000060; }
+
+.navbar-transparent {
+  opacity: 0;
+  background: #FFFFFF00 !important;
   transition: background-color 0.5s ease 0s;
   box-shadow: 0 0 4px #00000060; }
 
