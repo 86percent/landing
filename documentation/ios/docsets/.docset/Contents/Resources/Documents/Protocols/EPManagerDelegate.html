@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>EPManagerDelegate Protocol Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Protocol/EPManagerDelegate" class="dashAnchor"></a>
+    <a title="EPManagerDelegate Protocol Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        EPManagerDelegate Protocol Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/EPManager.html">EPManager</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/EPBotFetchingStrategy.html">EPBotFetchingStrategy</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/EPManagerDelegate.html">EPManagerDelegate</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>EPManagerDelegate</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">EPManagerDelegate</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                </div>
+              </div>
+            <p>The EPManager delegate protocol composed of methods allowing to catch specific EPManager events.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:16EightySixPercent17EPManagerDelegateP34epManagerFetchExternalInputOptions10contextKey7botUuid10completionySS_SSyAA010EPWorkflowG18DataSourceResponseOctF"></a>
+                    <a name="//apple_ref/swift/Method/epManagerFetchExternalInputOptions(contextKey:botUuid:completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:16EightySixPercent17EPManagerDelegateP34epManagerFetchExternalInputOptions10contextKey7botUuid10completionySS_SSyAA010EPWorkflowG18DataSourceResponseOctF">epManagerFetchExternalInputOptions(contextKey:botUuid:completion:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Called when a chat input needs options that have to be fetched externally.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">epManagerFetchExternalInputOptions</span><span class="p">(</span><span class="nv">contextKey</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">botUuid</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="n">_</span> <span class="nv">response</span><span class="p">:</span> <span class="kt">EPWorkflowManagerDataSourceResponse</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">())</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>contextKey</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The chat input context key.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>botUuid</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The chat input matching bot UUID.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completion</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Must be called in order to let the EPManager knowing how to continue the bot.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>response</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A EPWorkflowManagerDataSourceResponse enum value which must be provided depending on the options fetching result.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:16EightySixPercent17EPManagerDelegateP34epManagerChatConversationDidUpdate04chatI2IdySS_tF"></a>
+                    <a name="//apple_ref/swift/Method/epManagerChatConversationDidUpdate(chatConversationId:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:16EightySixPercent17EPManagerDelegateP34epManagerChatConversationDidUpdate04chatI2IdySS_tF">epManagerChatConversationDidUpdate(chatConversationId:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Called when a chat conversation has been updated.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">epManagerChatConversationDidUpdate</span><span class="p">(</span><span class="nv">chatConversationId</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>chatConversationId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The id of the updated chat conversation.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:16EightySixPercent17EPManagerDelegateP41epManagerChatConversationContextDidUpdate04chatI2Id7inserts7updates03botJ0ySS_SayAA15EPContextObjectCGA2KtF"></a>
+                    <a name="//apple_ref/swift/Method/epManagerChatConversationContextDidUpdate(chatConversationId:inserts:updates:botContext:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:16EightySixPercent17EPManagerDelegateP41epManagerChatConversationContextDidUpdate04chatI2Id7inserts7updates03botJ0ySS_SayAA15EPContextObjectCGA2KtF">epManagerChatConversationContextDidUpdate(chatConversationId:inserts:updates:botContext:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Called when a chat conversation context has been updated.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">epManagerChatConversationContextDidUpdate</span><span class="p">(</span><span class="nv">chatConversationId</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">inserts</span><span class="p">:</span> <span class="p">[</span><span class="kt">EPContextObject</span><span class="p">],</span> <span class="nv">updates</span><span class="p">:</span> <span class="p">[</span><span class="kt">EPContextObject</span><span class="p">],</span> <span class="nv">botContext</span><span class="p">:</span> <span class="p">[</span><span class="kt">EPContextObject</span><span class="p">])</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>chatConversationId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The id of the updated chat conversation.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>inserts</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The values that have been added to the chat conversation context.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>updates</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The values that have been updated in the chat conversation context.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>botContext</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The whole chat conversation context.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:16EightySixPercent17EPManagerDelegateP24epManagerAsyncTaskCalled05asyncI2Id10completionySS_yAA010EPWorkflowghI8ResponseOctF"></a>
+                    <a name="//apple_ref/swift/Method/epManagerAsyncTaskCalled(asyncTaskId:completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:16EightySixPercent17EPManagerDelegateP24epManagerAsyncTaskCalled05asyncI2Id10completionySS_yAA010EPWorkflowghI8ResponseOctF">epManagerAsyncTaskCalled(asyncTaskId:completion:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Called when a bot needs an asynchronous task to be executed.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">epManagerAsyncTaskCalled</span><span class="p">(</span><span class="nv">asyncTaskId</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="n">_</span> <span class="nv">response</span><span class="p">:</span> <span class="kt">EPWorkflowManagerAsyncTaskResponse</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">())</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>asyncTaskId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The id of the asynchronous task to execute.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completion</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Must be called at the end of the asynchronous task in order to let the EPManager knowing how to continue the bot.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>response</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A EPWorkflowManagerAsyncTaskResponse enum value which must be provided depending on the asynchronous task result.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>Copyright © Lunabot 2019</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.5</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

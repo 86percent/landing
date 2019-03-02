@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>EPManager Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/EPManager" class="dashAnchor"></a>
+    <a title="EPManager Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        EPManager Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/EPManager.html">EPManager</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/EPBotFetchingStrategy.html">EPBotFetchingStrategy</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/EPManagerDelegate.html">EPManagerDelegate</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>EPManager</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">EPManager</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                </div>
+              </div>
+            <p>This manager is the 86% SDK entry point.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Intialization%20and%20state"></a>
+                <a name="//apple_ref/swift/Section/Intialization and state" class="dashAnchor"></a>
+                <a href="#/Intialization%20and%20state">
+                  <h3 class="section-name">Intialization and state</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:16EightySixPercent9EPManagerC10initialize8delegate10enableLogsyAA0D8Delegate_pSg_SbtF"></a>
+                    <a name="//apple_ref/swift/Method/initialize(delegate:enableLogs:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:16EightySixPercent9EPManagerC10initialize8delegate10enableLogsyAA0D8Delegate_pSg_SbtF">initialize(delegate:enableLogs:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Initializes the EPManager.
+It must be called in order to have the bots working.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">initialize</span><span class="p">(</span><span class="nv">delegate</span><span class="p">:</span> <span class="kt"><a href="../Protocols/EPManagerDelegate.html">EPManagerDelegate</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">enableLogs</span><span class="p">:</span> <span class="kt">Bool</span> <span class="o">=</span> <span class="kc">false</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>delegate</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The object that will receive the EPManager events.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>enableLogs</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>If set to <code>true</code> the 86% SDK logs will be displayed in the console. Default value is <code>false</code>.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:16EightySixPercent9EPManagerC9clearDatayyF"></a>
+                    <a name="//apple_ref/swift/Method/clearData()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:16EightySixPercent9EPManagerC9clearDatayyF">clearData()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Clears all chat conversations and associated data.
+To be called, for example, when you log a user out.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">clearData</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Bots%20registration"></a>
+                <a name="//apple_ref/swift/Section/Bots registration" class="dashAnchor"></a>
+                <a href="#/Bots%20registration">
+                  <h3 class="section-name">Bots registration</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:16EightySixPercent9EPManagerC11registerBot4uuid16fetchingStrategyySS_AA013EPBotFetchingI0OtF"></a>
+                    <a name="//apple_ref/swift/Method/registerBot(uuid:fetchingStrategy:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:16EightySixPercent9EPManagerC11registerBot4uuid16fetchingStrategyySS_AA013EPBotFetchingI0OtF">registerBot(uuid:fetchingStrategy:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Registers a new bot to the EPManager.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">registerBot</span><span class="p">(</span><span class="nv">uuid</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">fetchingStrategy</span><span class="p">:</span> <span class="kt"><a href="../Enums/EPBotFetchingStrategy.html">EPBotFetchingStrategy</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>uuid</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The UUID of the bot to register.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>fetchingStrategy</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The fetching strategy to use to get the bot when you&rsquo;re about to open a controller.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Chat%20conversation%20controller"></a>
+                <a name="//apple_ref/swift/Section/Chat conversation controller" class="dashAnchor"></a>
+                <a href="#/Chat%20conversation%20controller">
+                  <h3 class="section-name">Chat conversation controller</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:16EightySixPercent9EPManagerC10controller3for10appearance8delegate10completionyAA18EPChatConversationC_AA12EPAppearanceCSgAA0J29MessageViewControllerDelegate_pSgyAA0jmnO0CSg_s5Error_pSgtctF"></a>
+                    <a name="//apple_ref/swift/Method/controller(for:appearance:delegate:completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:16EightySixPercent9EPManagerC10controller3for10appearance8delegate10completionyAA18EPChatConversationC_AA12EPAppearanceCSgAA0J29MessageViewControllerDelegate_pSgyAA0jmnO0CSg_s5Error_pSgtctF">controller(for:appearance:delegate:completion:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Creates a view controller for the given chat conversation and appearance.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">controller</span><span class="p">(</span><span class="k">for</span> <span class="nv">conversation</span><span class="p">:</span> <span class="kt">EPChatConversation</span><span class="p">,</span> <span class="nv">appearance</span><span class="p">:</span> <span class="kt">EPAppearance</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">delegate</span><span class="p">:</span> <span class="kt">EPChatMessageViewControllerDelegate</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="n">_</span> <span class="nv">controller</span><span class="p">:</span> <span class="kt">EPChatMessageViewController</span><span class="p">?,</span> <span class="n">_</span> <span class="nv">error</span><span class="p">:</span> <span class="kt">Error</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="p">())</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>conversation</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The chat conversation to display in the controller.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>appearance</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The appearance to use with this controller. Default value is <code>nil</code>.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>delegate</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The delegate to use for the controller provided in the callback. Default value is <code>nil</code>.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completion</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Callback called when the chat conversation controller is ready to be used.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>controller</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The controller that has been initialized for the given chat conversation and appearance, <code>nil</code> if an error occurred. (optional)</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>error</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The error that happened preparing the conversation and/or the controller, <code>nil</code> if no errors were raised. (optional)</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Chat%20conversations"></a>
+                <a name="//apple_ref/swift/Section/Chat conversations" class="dashAnchor"></a>
+                <a href="#/Chat%20conversations">
+                  <h3 class="section-name">Chat conversations</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:16EightySixPercent9EPManagerC19getChatConversation5forIdAA06EPChatG0CSgSS_tF"></a>
+                    <a name="//apple_ref/swift/Method/getChatConversation(forId:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:16EightySixPercent9EPManagerC19getChatConversation5forIdAA06EPChatG0CSgSS_tF">getChatConversation(forId:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Get an existing chat conversation for a given id.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getChatConversation</span><span class="p">(</span><span class="n">forId</span> <span class="nv">id</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">EPChatConversation</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>id</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The id of the existing chat conversation to get.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The matching chat conversation object or <code>nil</code> if it was not found.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Bots%20flow"></a>
+                <a name="//apple_ref/swift/Section/Bots flow" class="dashAnchor"></a>
+                <a href="#/Bots%20flow">
+                  <h3 class="section-name">Bots flow</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:16EightySixPercent9EPManagerC24runBotOnChatConversation04chatI07botUuid13contextUpdate14replaceContext10completionyAA06EPChatI0C_SSSayAA15EPContextObjectCGSbys5Error_pSgctF"></a>
+                    <a name="//apple_ref/swift/Method/runBotOnChatConversation(chatConversation:botUuid:contextUpdate:replaceContext:completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:16EightySixPercent9EPManagerC24runBotOnChatConversation04chatI07botUuid13contextUpdate14replaceContext10completionyAA06EPChatI0C_SSSayAA15EPContextObjectCGSbys5Error_pSgctF">runBotOnChatConversation(chatConversation:botUuid:contextUpdate:replaceContext:completion:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Runs a bot on the given chat conversation.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">runBotOnChatConversation</span><span class="p">(</span><span class="nv">chatConversation</span><span class="p">:</span> <span class="kt">EPChatConversation</span><span class="p">,</span> <span class="nv">botUuid</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">contextUpdate</span><span class="p">:</span> <span class="p">[</span><span class="kt">EPContextObject</span><span class="p">]</span> <span class="o">=</span> <span class="p">[],</span> <span class="nv">replaceContext</span><span class="p">:</span> <span class="kt">Bool</span> <span class="o">=</span> <span class="kc">false</span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="n">_</span> <span class="nv">error</span><span class="p">:</span> <span class="kt">Error</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="p">())</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>chatConversation</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The chat conversation on which to run the bot.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>botUuid</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The UUID of the bot to run.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>contextUpdate</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>An array of context objects to use to update the chat conversation context. Default value is <code>[]</code>.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>replaceContext</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>If set to <code>true</code>, the current conversation context will first be cleared before add the given context objects.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completion</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Called when the bot has been started on the chat conversation.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>error</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The error that occurred when trying to start the bot.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>Copyright © Lunabot 2019</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.5</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
