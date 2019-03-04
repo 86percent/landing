@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>EPChatMessageViewControllerDelegate Protocol Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Protocol/EPChatMessageViewControllerDelegate" class="dashAnchor"></a>
+    <a title="EPChatMessageViewControllerDelegate Protocol Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">EightySixPercent Docs</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">EightySixPercent Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        EPChatMessageViewControllerDelegate Protocol Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/EPChatConversation.html">EPChatConversation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:16EightySixPercent13EPChatMessageC">EPChatMessage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EPChatMessageViewController.html">EPChatMessageViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EPContextObject.html">EPContextObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EPManager.html">EPManager</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/EPBotFetchingStrategy.html">EPBotFetchingStrategy</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/Array.html">Array</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/EPChatMessageViewControllerDelegate.html">EPChatMessageViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/EPManagerDelegate.html">EPManagerDelegate</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>EPChatMessageViewControllerDelegate</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">EPChatMessageViewControllerDelegate</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                </div>
+              </div>
+            <p>The EPChatMessageViewController delegate protocol composed of methods allowing to catch specific EPChatMessageViewController events.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:16EightySixPercent35EPChatMessageViewControllerDelegateP06epChatefG20CustomInitialization10controlleryAA0defG0C_tF"></a>
+                    <a name="//apple_ref/swift/Method/epChatMessageViewControllerCustomInitialization(controller:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:16EightySixPercent35EPChatMessageViewControllerDelegateP06epChatefG20CustomInitialization10controlleryAA0defG0C_tF">epChatMessageViewControllerCustomInitialization(controller:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Called when the controller setup is done to allow custom initializations.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">epChatMessageViewControllerCustomInitialization</span><span class="p">(</span><span class="nv">controller</span><span class="p">:</span> <span class="kt"><a href="../Classes/EPChatMessageViewController.html">EPChatMessageViewController</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>controller</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The controller on which custom intializations can be done.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:16EightySixPercent35EPChatMessageViewControllerDelegateP06epChatefgE9DidUpdate10controller04lastE016chatConversationyAA0defG0C_AA0dE0CSgAA0dP0CtF"></a>
+                    <a name="//apple_ref/swift/Method/epChatMessageViewControllerMessageDidUpdate(controller:lastMessage:chatConversation:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:16EightySixPercent35EPChatMessageViewControllerDelegateP06epChatefgE9DidUpdate10controller04lastE016chatConversationyAA0defG0C_AA0dE0CSgAA0dP0CtF">epChatMessageViewControllerMessageDidUpdate(controller:lastMessage:chatConversation:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Called when the last chat conversation message has been created/updated.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">epChatMessageViewControllerMessageDidUpdate</span><span class="p">(</span><span class="nv">controller</span><span class="p">:</span> <span class="kt"><a href="../Classes/EPChatMessageViewController.html">EPChatMessageViewController</a></span><span class="p">,</span> <span class="nv">lastMessage</span><span class="p">:</span> <span class="kt"><a href="../Classes.html#/s:16EightySixPercent13EPChatMessageC">EPChatMessage</a></span><span class="p">?,</span> <span class="nv">chatConversation</span><span class="p">:</span> <span class="kt"><a href="../Classes/EPChatConversation.html">EPChatConversation</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>controller</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The controller from which this method is called.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>lastMessage</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The last chat conversation message.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>chatConversation</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The last message chat conversation.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:16EightySixPercent35EPChatMessageViewControllerDelegateP06epChatefgJ28ConversationContextDidChange10controller7context10insertions7updatesyAA0defG0C_SayAA15EPContextObjectCGA2MtF"></a>
+                    <a name="//apple_ref/swift/Method/epChatMessageViewControllerChatConversationContextDidChange(controller:context:insertions:updates:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:16EightySixPercent35EPChatMessageViewControllerDelegateP06epChatefgJ28ConversationContextDidChange10controller7context10insertions7updatesyAA0defG0C_SayAA15EPContextObjectCGA2MtF">epChatMessageViewControllerChatConversationContextDidChange(controller:context:insertions:updates:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Called when the chat conversation context has been updated.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">epChatMessageViewControllerChatConversationContextDidChange</span><span class="p">(</span><span class="nv">controller</span><span class="p">:</span> <span class="kt"><a href="../Classes/EPChatMessageViewController.html">EPChatMessageViewController</a></span><span class="p">,</span> <span class="nv">context</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Classes/EPContextObject.html">EPContextObject</a></span><span class="p">],</span> <span class="nv">insertions</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Classes/EPContextObject.html">EPContextObject</a></span><span class="p">],</span> <span class="nv">updates</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Classes/EPContextObject.html">EPContextObject</a></span><span class="p">])</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>controller</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The controller from which this method is called.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>context</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The chat conversation context.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>insertions</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The objects that have been added to the chat conversation context.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>updates</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The objects that have been updated in the chat conversation context.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:16EightySixPercent35EPChatMessageViewControllerDelegateP06epChatefG15CustomInputType10controller06customlM2IdAA08EPCustomlM0CSgAA0defG0C_SStF"></a>
+                    <a name="//apple_ref/swift/Method/epChatMessageViewControllerCustomInputType(controller:customInputTypeId:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:16EightySixPercent35EPChatMessageViewControllerDelegateP06epChatefG15CustomInputType10controller06customlM2IdAA08EPCustomlM0CSgAA0defG0C_SStF">epChatMessageViewControllerCustomInputType(controller:customInputTypeId:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Called when a custom input type is required by the bot.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">epChatMessageViewControllerCustomInputType</span><span class="p">(</span><span class="nv">controller</span><span class="p">:</span> <span class="kt"><a href="../Classes/EPChatMessageViewController.html">EPChatMessageViewController</a></span><span class="p">,</span> <span class="nv">customInputTypeId</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">EPCustomInputType</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>controller</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The controller from which this method is called.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>customInputTypeId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The custom input type id.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>An EPCustomInputType object representing the UI to show for this input.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:16EightySixPercent35EPChatMessageViewControllerDelegateP06epChatefG12BotDidFinish10controller7contextyAA0defG0C_SayAA15EPContextObjectCGtF"></a>
+                    <a name="//apple_ref/swift/Method/epChatMessageViewControllerBotDidFinish(controller:context:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:16EightySixPercent35EPChatMessageViewControllerDelegateP06epChatefG12BotDidFinish10controller7contextyAA0defG0C_SayAA15EPContextObjectCGtF">epChatMessageViewControllerBotDidFinish(controller:context:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Called when the bot is finished. If the bot ends with a button, it is called when the user touches the button.
+Otherwise, it is called when the end message is displayed.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">epChatMessageViewControllerBotDidFinish</span><span class="p">(</span><span class="nv">controller</span><span class="p">:</span> <span class="kt"><a href="../Classes/EPChatMessageViewController.html">EPChatMessageViewController</a></span><span class="p">,</span> <span class="nv">context</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Classes/EPContextObject.html">EPContextObject</a></span><span class="p">])</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>controller</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The controller from which this method is called.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>context</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The chat conversation context.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:16EightySixPercent35EPChatMessageViewControllerDelegateP06epChatefG12UserDidInput10controller7content7contextyAA0defG0C_AA16EPMessageContentOSayAA15EPContextObjectCGtF"></a>
+                    <a name="//apple_ref/swift/Method/epChatMessageViewControllerUserDidInput(controller:content:context:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:16EightySixPercent35EPChatMessageViewControllerDelegateP06epChatefG12UserDidInput10controller7content7contextyAA0defG0C_AA16EPMessageContentOSayAA15EPContextObjectCGtF">epChatMessageViewControllerUserDidInput(controller:content:context:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Called when a user just answered an input.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">epChatMessageViewControllerUserDidInput</span><span class="p">(</span><span class="nv">controller</span><span class="p">:</span> <span class="kt"><a href="../Classes/EPChatMessageViewController.html">EPChatMessageViewController</a></span><span class="p">,</span> <span class="nv">content</span><span class="p">:</span> <span class="kt">EPMessageContent</span><span class="p">,</span> <span class="nv">context</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Classes/EPContextObject.html">EPContextObject</a></span><span class="p">])</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>controller</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The controller from which this method is called.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>content</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The input answer content.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>context</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The chat conversation context.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>Copyright © Lunabot SAS 2019. All rights reserved. (Last updated: 2019-02-27)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.5</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
