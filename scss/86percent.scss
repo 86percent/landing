@@ -41,6 +41,7 @@ $border-radius-sm: 0.4rem;
 }
 
 .icon-features {
+  float:right;
   font-size: $font-size-base * 2;
   color: theme-color("primary");
 }
