@@ -7478,7 +7478,7 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 .text-primary {
-  color: #007bff; }
+  color: #FC5D60; }
 
 .navbar-solid {
   opacity: 1;
@@ -7499,5 +7499,9 @@ a.text-dark:hover, a.text-dark:focus {
   -webkit-transform: translateY(-3px);
   transform: translateY(-3px);
   box-shadow: 0 4px 11px rgba(30, 32, 34, 0.35); }
+
+.icon-features {
+  font-size: 2rem;
+  color: #FC5D60; }
 
 /*# sourceMappingURL=86percent.css.map */

@@ -2,8 +2,8 @@
 // Option A: Include all of Bootstrap
 
 $theme-colors: (
-        "primary": #FC5D60,
-        "secondary": #383A8E
+  "primary": #FC5D60,
+  "secondary": #383A8E
 );
 
 $border-radius: 0.5rem;
@@ -13,9 +13,8 @@ $border-radius-sm: 0.4rem;
 @import "../bootstrap/scss/bootstrap";
 
 .text-primary {
-  color: $primary;
+  color: theme-color("primary");
 }
-
 
 .navbar-solid {
   opacity: 1;
@@ -41,3 +40,7 @@ $border-radius-sm: 0.4rem;
   box-shadow: 0 4px 11px rgba(30, 32, 34, 0.35);
 }
 
+.icon-features {
+  font-size: $font-size-base * 2;
+  color: theme-color("primary");
+}
