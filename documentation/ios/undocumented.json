@@ -1,313 +1,383 @@
 {
   "warnings": [
     {
-      "file": "/Users/nicolas/FTPDownloads/EightySixPercent/EightySixPercent/Lunabot/Classes/ChatUI/Cells/EPBubbleLayoutContext.swift",
-      "line": 10,
-      "symbol": "EPBubbleLayoutContext",
-      "symbol_kind": "source.lang.swift.decl.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/nicolas/FTPDownloads/EightySixPercent/EightySixPercent/Lunabot/Classes/ChatUI/Cells/EPStandardBubbleCell.swift",
-      "line": 18,
-      "symbol": "EPChatCellDelegate",
-      "symbol_kind": "source.lang.swift.decl.protocol",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/nicolas/FTPDownloads/EightySixPercent/EightySixPercent/Lunabot/Classes/ChatUI/Cells/EPStandardBubbleCell.swift",
+      "file": "/Users/nicolas/Development/GIT/EightySixPercent_iOS_SDKBuilding/EightySixPercent/Lunabot/Classes/ChatUI/Cells/EPStandardBubbleCell.swift",
       "line": 27,
       "symbol": "EPStandardBubbleCell",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nicolas/FTPDownloads/EightySixPercent/EightySixPercent/Lunabot/Classes/ChatUI/EPAppearanceManager.swift",
-      "line": null,
-      "symbol": "EPAppearance",
-      "symbol_kind": "source.lang.swift.decl.extension",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/nicolas/FTPDownloads/EightySixPercent/EightySixPercent/Lunabot/Classes/ChatUI/EPAppearanceManager.swift",
-      "line": 12,
-      "symbol": "EPBubbleChatAppearanceOption",
-      "symbol_kind": "source.lang.swift.decl.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/nicolas/FTPDownloads/EightySixPercent/EightySixPercent/Lunabot/Classes/ChatUI/EPAppearanceManager.swift",
-      "line": 21,
-      "symbol": "EPInputChatAppearanceOption",
-      "symbol_kind": "source.lang.swift.decl.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/nicolas/FTPDownloads/EightySixPercent/EightySixPercent/Lunabot/Classes/ChatUI/EPAppearanceManager.swift",
-      "line": 36,
-      "symbol": "EPAppearance",
-      "symbol_kind": "source.lang.swift.decl.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/nicolas/FTPDownloads/EightySixPercent/EightySixPercent/Lunabot/Classes/ChatUI/EPBotController.swift",
+      "file": "/Users/nicolas/Development/GIT/EightySixPercent_iOS_SDKBuilding/EightySixPercent/Lunabot/Classes/ChatUI/EPBotController.swift",
       "line": 17,
       "symbol": "EPBotController",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nicolas/FTPDownloads/EightySixPercent/EightySixPercent/Lunabot/Classes/ChatUI/EPBubbleAppearanceOption.swift",
-      "line": 13,
-      "symbol": "EPBubbleCellLayoutOption",
-      "symbol_kind": "source.lang.swift.decl.class",
+      "file": "/Users/nicolas/Development/GIT/EightySixPercent_iOS_SDKBuilding/EightySixPercent/Lunabot/Classes/ChatUI/EPDefaultAppearance.swift",
+      "line": 12,
+      "symbol": "EPAppearance.default(mainColor:secondaryColor:regularFontName:strongFontName:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nicolas/FTPDownloads/EightySixPercent/EightySixPercent/Lunabot/Classes/ChatUI/EPBubbleAppearanceOption.swift",
-      "line": 22,
-      "symbol": "EPBubbleAppearanceOption",
-      "symbol_kind": "source.lang.swift.decl.class",
+      "file": "/Users/nicolas/Development/GIT/EightySixPercent_iOS_SDKBuilding/EightySixPercent/Lunabot/Classes/ChatUI/EPDefaultAppearance.swift",
+      "line": 28,
+      "symbol": "EPAppearance.defaultInputChatAppearance()",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nicolas/FTPDownloads/EightySixPercent/EightySixPercent/Lunabot/Classes/ChatUI/EPTypingAnimation.swift",
-      "line": 10,
-      "symbol": "EPTypingAnimation",
-      "symbol_kind": "source.lang.swift.decl.class",
+      "file": "/Users/nicolas/Development/GIT/EightySixPercent_iOS_SDKBuilding/EightySixPercent/Lunabot/Classes/ChatUI/EPDefaultAppearance.swift",
+      "line": 38,
+      "symbol": "EPAppearance.defaultBubbleChatAppearance(incomingColor:outgoingColor:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nicolas/FTPDownloads/EightySixPercent/EightySixPercent/Lunabot/Classes/ChatUI/EPTypingAnimation.swift",
-      "line": 43,
-      "symbol": "UIColor.toStr()",
+      "file": "/Users/nicolas/Development/GIT/EightySixPercent_iOS_SDKBuilding/EightySixPercent/Lunabot/Classes/ChatUI/EPDefaultAppearance.swift",
+      "line": 48,
+      "symbol": "EPAppearance.defaultOutGoing(withTail:color:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nicolas/Development/GIT/EightySixPercent_iOS_SDKBuilding/EightySixPercent/Lunabot/Classes/ChatUI/EPDefaultAppearance.swift",
+      "line": 66,
+      "symbol": "EPAppearance.defaultIncoming(withTail:color:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nicolas/Development/GIT/EightySixPercent_iOS_SDKBuilding/EightySixPercent/Lunabot/Classes/ChatUI/EPDefaultAppearance.swift",
+      "line": 87,
+      "symbol": "EPAppearance.defaultTypingAnimation(color:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nicolas/Development/GIT/EightySixPercent_iOS_SDKBuilding/EightySixPercent/Lunabot/Classes/ChatUI/EPTypingAnimation.swift",
+      "line": 18,
+      "symbol": "EPTypingAnimation.init(jsonFileName:size:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nicolas/FTPDownloads/EightySixPercent/EightySixPercent/Lunabot/Classes/ChatUI/LBInputType/EPCustomInputType.swift",
-      "line": 13,
-      "symbol": "EPCustomInputType",
-      "symbol_kind": "source.lang.swift.decl.class",
+      "file": "/Users/nicolas/Development/GIT/EightySixPercent_iOS_SDKBuilding/EightySixPercent/Lunabot/Classes/ChatUI/EPTypingAnimation.swift",
+      "line": 23,
+      "symbol": "EPTypingAnimation.init(jsonPath:size:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nicolas/FTPDownloads/EightySixPercent/EightySixPercent/Lunabot/Classes/ChatUI/LBInputType/EPDateInputKeyboard.swift",
+      "file": "/Users/nicolas/Development/GIT/EightySixPercent_iOS_SDKBuilding/EightySixPercent/Lunabot/Classes/ChatUI/EPTypingAnimation.swift",
+      "line": 32,
+      "symbol": "EPTypingAnimation.changeColor(existingLottieColorCode:newColor:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nicolas/Development/GIT/EightySixPercent_iOS_SDKBuilding/EightySixPercent/Lunabot/Classes/ChatUI/LBInputType/EPDateInputKeyboard.swift",
       "line": 12,
       "symbol": "EPDateInputMode",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nicolas/FTPDownloads/EightySixPercent/EightySixPercent/Lunabot/Classes/ChatUI/LBInputType/EPInputType.swift",
-      "line": 11,
-      "symbol": "EPInputType",
-      "symbol_kind": "source.lang.swift.decl.protocol",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/nicolas/FTPDownloads/EightySixPercent/EightySixPercent/Lunabot/Classes/ChatUI/LBInputType/EPInputType.swift",
-      "line": 20,
-      "symbol": "SendClosure",
-      "symbol_kind": "source.lang.swift.decl.typealias",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/nicolas/FTPDownloads/EightySixPercent/EightySixPercent/Lunabot/Classes/ChatUI/LBInputType/EPPhotoInputKeyboard.swift",
-      "line": null,
-      "symbol": "EPPhotoInputKeyboard",
-      "symbol_kind": "source.lang.swift.decl.extension",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/nicolas/FTPDownloads/EightySixPercent/EightySixPercent/Lunabot/Classes/ChatUI/Model/EPImage.swift",
+      "file": "/Users/nicolas/Development/GIT/EightySixPercent_iOS_SDKBuilding/EightySixPercent/Lunabot/Classes/ChatUI/Model/EPImage.swift",
       "line": 12,
       "symbol": "EPImage",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nicolas/FTPDownloads/EightySixPercent/EightySixPercent/Lunabot/Classes/ChatUI/Model/EPMessageContent.swift",
-      "line": 11,
-      "symbol": "EPMessageContent",
-      "symbol_kind": "source.lang.swift.decl.enum",
+      "file": "/Users/nicolas/Development/GIT/EightySixPercent_iOS_SDKBuilding/EightySixPercent/Lunabot/Classes/ChatUI/Model/EPMessageContent.swift",
+      "line": 13,
+      "symbol": "EPMessageContent.text(text:secured:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nicolas/FTPDownloads/EightySixPercent/EightySixPercent/Lunabot/Classes/ChatUI/Utils/Extensions.swift",
-      "line": 51,
-      "symbol": "UIStoryboard.controller(_:controllerId:bundle:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "file": "/Users/nicolas/Development/GIT/EightySixPercent_iOS_SDKBuilding/EightySixPercent/Lunabot/Classes/ChatUI/Model/EPMessageContent.swift",
+      "line": 14,
+      "symbol": "EPMessageContent.date(date:formattedValue:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nicolas/FTPDownloads/EightySixPercent/EightySixPercent/Lunabot/Classes/ChatUI/Utils/LBAnimatedImageView/EPAnimatedImageView.swift",
+      "file": "/Users/nicolas/Development/GIT/EightySixPercent_iOS_SDKBuilding/EightySixPercent/Lunabot/Classes/ChatUI/Model/EPMessageContent.swift",
+      "line": 15,
+      "symbol": "EPMessageContent.number(value:formattedValue:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nicolas/Development/GIT/EightySixPercent_iOS_SDKBuilding/EightySixPercent/Lunabot/Classes/ChatUI/Model/EPMessageContent.swift",
+      "line": 16,
+      "symbol": "EPMessageContent.duration(value:formattedValue:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nicolas/Development/GIT/EightySixPercent_iOS_SDKBuilding/EightySixPercent/Lunabot/Classes/ChatUI/Model/EPMessageContent.swift",
+      "line": 17,
+      "symbol": "EPMessageContent.distance(value:formattedValue:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nicolas/Development/GIT/EightySixPercent_iOS_SDKBuilding/EightySixPercent/Lunabot/Classes/ChatUI/Model/EPMessageContent.swift",
+      "line": 18,
+      "symbol": "EPMessageContent.boolean(bool:object:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nicolas/Development/GIT/EightySixPercent_iOS_SDKBuilding/EightySixPercent/Lunabot/Classes/ChatUI/Model/EPMessageContent.swift",
+      "line": 19,
+      "symbol": "EPMessageContent.multipleObject(objects:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nicolas/Development/GIT/EightySixPercent_iOS_SDKBuilding/EightySixPercent/Lunabot/Classes/ChatUI/Model/EPMessageContent.swift",
+      "line": 20,
+      "symbol": "EPMessageContent.image(image:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nicolas/Development/GIT/EightySixPercent_iOS_SDKBuilding/EightySixPercent/Lunabot/Classes/ChatUI/Model/EPMessageContent.swift",
+      "line": 21,
+      "symbol": "EPMessageContent.gif(url:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nicolas/Development/GIT/EightySixPercent_iOS_SDKBuilding/EightySixPercent/Lunabot/Classes/ChatUI/Model/EPMessageContent.swift",
+      "line": 22,
+      "symbol": "EPMessageContent.web(url:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nicolas/Development/GIT/EightySixPercent_iOS_SDKBuilding/EightySixPercent/Lunabot/Classes/ChatUI/Model/EPMessageContent.swift",
+      "line": 23,
+      "symbol": "EPMessageContent.custom(userInfo:cellIdentifier:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nicolas/Development/GIT/EightySixPercent_iOS_SDKBuilding/EightySixPercent/Lunabot/Classes/ChatUI/Model/EPMessageContent.swift",
+      "line": 24,
+      "symbol": "EPMessageContent.skip(text:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nicolas/Development/GIT/EightySixPercent_iOS_SDKBuilding/EightySixPercent/Lunabot/Classes/ChatUI/Model/EPMessageContent.swift",
+      "line": 25,
+      "symbol": "EPMessageContent.waiting(cellToBeCached:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nicolas/Development/GIT/EightySixPercent_iOS_SDKBuilding/EightySixPercent/Lunabot/Classes/ChatUI/Model/EPMessageContent.swift",
+      "line": 26,
+      "symbol": "EPMessageContent.endBot(text:buttonTitle:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nicolas/Development/GIT/EightySixPercent_iOS_SDKBuilding/EightySixPercent/Lunabot/Classes/ChatUI/Model/EPMessageContent.swift",
+      "line": 27,
+      "symbol": "EPMessageContent.error(message:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nicolas/Development/GIT/EightySixPercent_iOS_SDKBuilding/EightySixPercent/Lunabot/Classes/ChatUI/Model/EPSimpleObject.swift",
+      "line": 4,
+      "symbol": "EPSimpleObject",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nicolas/Development/GIT/EightySixPercent_iOS_SDKBuilding/EightySixPercent/Lunabot/Classes/ChatUI/Utils/LBAnimatedImageView/EPAnimatedImageView.swift",
       "line": null,
       "symbol": "EPAnimatedImageView",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nicolas/FTPDownloads/EightySixPercent/EightySixPercent/Lunabot/Classes/EPChatMessageViewController.swift",
-      "line": 96,
+      "file": "/Users/nicolas/Development/GIT/EightySixPercent_iOS_SDKBuilding/EightySixPercent/Lunabot/Classes/EPChatMessageViewController.swift",
+      "line": 98,
       "symbol": "EPChatMessageViewController.viewDidLoad()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nicolas/FTPDownloads/EightySixPercent/EightySixPercent/Lunabot/Classes/EPChatMessageViewController.swift",
-      "line": 170,
+      "file": "/Users/nicolas/Development/GIT/EightySixPercent_iOS_SDKBuilding/EightySixPercent/Lunabot/Classes/EPChatMessageViewController.swift",
+      "line": 172,
       "symbol": "EPChatMessageViewController.viewDidAppear(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nicolas/FTPDownloads/EightySixPercent/EightySixPercent/Lunabot/Classes/EPManager.swift",
-      "line": 67,
+      "file": "/Users/nicolas/Development/GIT/EightySixPercent_iOS_SDKBuilding/EightySixPercent/Lunabot/Classes/EPManager.swift",
+      "line": 68,
       "symbol": "EPManager.shared",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nicolas/FTPDownloads/EightySixPercent/EightySixPercent/Lunabot/Classes/Model/EPChatConversation.swift",
+      "file": "/Users/nicolas/Development/GIT/EightySixPercent_iOS_SDKBuilding/EightySixPercent/Lunabot/Classes/Model/EPChatConversation.swift",
       "line": 150,
       "symbol": "EPChatConversation.primaryKey()",
       "symbol_kind": "source.lang.swift.decl.function.method.static",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nicolas/FTPDownloads/EightySixPercent/EightySixPercent/Lunabot/Classes/Model/EPChatConversation.swift",
+      "file": "/Users/nicolas/Development/GIT/EightySixPercent_iOS_SDKBuilding/EightySixPercent/Lunabot/Classes/Model/EPChatConversation.swift",
       "line": 154,
       "symbol": "EPChatConversation.indexedProperties()",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nicolas/FTPDownloads/EightySixPercent/EightySixPercent/Lunabot/Classes/Model/EPChatConversation.swift",
+      "file": "/Users/nicolas/Development/GIT/EightySixPercent_iOS_SDKBuilding/EightySixPercent/Lunabot/Classes/Model/EPChatConversation.swift",
       "line": 158,
       "symbol": "EPChatConversation.ignoredProperties()",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nicolas/FTPDownloads/EightySixPercent/EightySixPercent/Lunabot/Classes/Model/EPChatMessage.swift",
-      "line": 65,
+      "file": "/Users/nicolas/Development/GIT/EightySixPercent_iOS_SDKBuilding/EightySixPercent/Lunabot/Classes/Model/EPChatMessage.swift",
+      "line": 67,
       "symbol": "EPChatMessage.primaryKey()",
       "symbol_kind": "source.lang.swift.decl.function.method.static",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nicolas/FTPDownloads/EightySixPercent/EightySixPercent/Lunabot/Classes/Model/EPChatMessage.swift",
-      "line": 69,
+      "file": "/Users/nicolas/Development/GIT/EightySixPercent_iOS_SDKBuilding/EightySixPercent/Lunabot/Classes/Model/EPChatMessage.swift",
+      "line": 71,
       "symbol": "EPChatMessage.indexedProperties()",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nicolas/FTPDownloads/EightySixPercent/EightySixPercent/Lunabot/Classes/Model/EPChatMessage.swift",
-      "line": 73,
+      "file": "/Users/nicolas/Development/GIT/EightySixPercent_iOS_SDKBuilding/EightySixPercent/Lunabot/Classes/Model/EPChatMessage.swift",
+      "line": 75,
       "symbol": "EPChatMessage.isIncoming()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nicolas/FTPDownloads/EightySixPercent/EightySixPercent/Lunabot/Classes/Model/EPChatMessage.swift",
-      "line": 255,
+      "file": "/Users/nicolas/Development/GIT/EightySixPercent_iOS_SDKBuilding/EightySixPercent/Lunabot/Classes/Model/EPChatMessage.swift",
+      "line": 262,
       "symbol": "EPChatMessage.messageContent()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nicolas/FTPDownloads/EightySixPercent/EightySixPercent/Lunabot/Classes/Model/Enums/EPMessageInputType.swift",
-      "line": 13,
-      "symbol": "EPInputLayoutMode",
-      "symbol_kind": "source.lang.swift.decl.enum",
+      "file": "/Users/nicolas/Development/GIT/EightySixPercent_iOS_SDKBuilding/EightySixPercent/Lunabot/Classes/Model/Enums/EPMessageInputType.swift",
+      "line": 19,
+      "symbol": "EPInputLayoutMode.fixedSize",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nicolas/FTPDownloads/EightySixPercent/EightySixPercent/Lunabot/Classes/SendingOption/SendOptionViewController.swift",
-      "line": 14,
-      "symbol": "SendOptionClosure",
-      "symbol_kind": "source.lang.swift.decl.typealias",
+      "file": "/Users/nicolas/Development/GIT/EightySixPercent_iOS_SDKBuilding/EightySixPercent/Lunabot/Classes/Model/Enums/EPMessageInputType.swift",
+      "line": 20,
+      "symbol": "EPInputLayoutMode.multipleSize",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nicolas/FTPDownloads/EightySixPercent/EightySixPercent/Lunabot/Classes/SendingOption/SendingOption.swift",
+      "file": "/Users/nicolas/Development/GIT/EightySixPercent_iOS_SDKBuilding/EightySixPercent/Lunabot/Classes/Model/Enums/EPMessageInputType.swift",
+      "line": 21,
+      "symbol": "EPInputLayoutMode.fullScreen",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nicolas/Development/GIT/EightySixPercent_iOS_SDKBuilding/EightySixPercent/Lunabot/Classes/SendingOption/EPMessageSendingOption.swift",
       "line": 31,
-      "symbol": "SendingOption",
+      "symbol": "EPMessageSendingOption",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nicolas/FTPDownloads/EightySixPercent/EightySixPercent/Lunabot/Classes/WorkflowManager/Managers/Analytics/AlamofireUtils.swift",
-      "line": 33,
-      "symbol": "URLRequest.setBody(_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/nicolas/FTPDownloads/EightySixPercent/EightySixPercent/Lunabot/Classes/WorkflowManager/Managers/Analytics/AlamofireUtils.swift",
-      "line": 44,
-      "symbol": "URLRequest.setApplicationJSONContentType()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/nicolas/FTPDownloads/EightySixPercent/EightySixPercent/Lunabot/Classes/WorkflowManager/Managers/Analytics/AlamofireUtils.swift",
-      "line": 48,
-      "symbol": "URLRequest.setToken(_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/nicolas/FTPDownloads/EightySixPercent/EightySixPercent/Lunabot/Classes/WorkflowManager/Managers/EPWorkflowManager.swift",
-      "line": 13,
-      "symbol": "EPWorkflowManagerDataSourceResponse",
-      "symbol_kind": "source.lang.swift.decl.enum",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/nicolas/FTPDownloads/EightySixPercent/EightySixPercent/Lunabot/Classes/WorkflowManager/Managers/EPWorkflowManager.swift",
+      "file": "/Users/nicolas/Development/GIT/EightySixPercent_iOS_SDKBuilding/EightySixPercent/Lunabot/Classes/WorkflowManager/Managers/EPWorkflowManager.swift",
       "line": 19,
-      "symbol": "EPWorkflowManagerAsyncTaskResponse",
-      "symbol_kind": "source.lang.swift.decl.enum",
+      "symbol": "EPWorkflowManagerDataSourceResponse.default",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nicolas/FTPDownloads/EightySixPercent/EightySixPercent/Lunabot/Classes/WorkflowManager/Model/EPContextObject.swift",
+      "file": "/Users/nicolas/Development/GIT/EightySixPercent_iOS_SDKBuilding/EightySixPercent/Lunabot/Classes/WorkflowManager/Managers/EPWorkflowManager.swift",
+      "line": 20,
+      "symbol": "EPWorkflowManagerDataSourceResponse.customInputOptions(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nicolas/Development/GIT/EightySixPercent_iOS_SDKBuilding/EightySixPercent/Lunabot/Classes/WorkflowManager/Managers/EPWorkflowManager.swift",
+      "line": 21,
+      "symbol": "EPWorkflowManagerDataSourceResponse.customInputOptionsError(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nicolas/Development/GIT/EightySixPercent_iOS_SDKBuilding/EightySixPercent/Lunabot/Classes/WorkflowManager/Managers/EPWorkflowManager.swift",
+      "line": 30,
+      "symbol": "EPWorkflowManagerAsyncTaskResponse.default(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nicolas/Development/GIT/EightySixPercent_iOS_SDKBuilding/EightySixPercent/Lunabot/Classes/WorkflowManager/Managers/EPWorkflowManager.swift",
+      "line": 31,
+      "symbol": "EPWorkflowManagerAsyncTaskResponse.custom(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nicolas/Development/GIT/EightySixPercent_iOS_SDKBuilding/EightySixPercent/Lunabot/Classes/WorkflowManager/Managers/EPWorkflowManager.swift",
+      "line": 32,
+      "symbol": "EPWorkflowManagerAsyncTaskResponse.error(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nicolas/Development/GIT/EightySixPercent_iOS_SDKBuilding/EightySixPercent/Lunabot/Classes/WorkflowManager/Model/EPContextObject.swift",
       "line": 59,
       "symbol": "EPContextObject.isEqual(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nicolas/FTPDownloads/EightySixPercent/EightySixPercent/Lunabot/Classes/WorkflowManager/Model/EPInputOption.swift",
-      "line": 10,
-      "symbol": "EPInputOptionItemValueType",
-      "symbol_kind": "source.lang.swift.decl.enum",
+      "file": "/Users/nicolas/Development/GIT/EightySixPercent_iOS_SDKBuilding/EightySixPercent/Lunabot/Classes/WorkflowManager/Model/EPInputOption.swift",
+      "line": 16,
+      "symbol": "EPInputOptionItemValueType.string(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nicolas/FTPDownloads/EightySixPercent/EightySixPercent/Lunabot/Classes/WorkflowManager/Model/EPInputOption.swift",
-      "line": 24,
-      "symbol": "EPInputOption",
-      "symbol_kind": "source.lang.swift.decl.class",
+      "file": "/Users/nicolas/Development/GIT/EightySixPercent_iOS_SDKBuilding/EightySixPercent/Lunabot/Classes/WorkflowManager/Model/EPInputOption.swift",
+      "line": 17,
+      "symbol": "EPInputOptionItemValueType.boolean(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nicolas/FTPDownloads/EightySixPercent/EightySixPercent/Lunabot/Classes/WorkflowManager/Model/EPWMBot.swift",
-      "line": 10,
-      "symbol": "EPWMBot",
-      "symbol_kind": "source.lang.swift.decl.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/nicolas/FTPDownloads/EightySixPercent/EightySixPercent/Lunabot/Classes/WorkflowManager/WorkflowManagerConstants.swift",
-      "line": 12,
-      "symbol": "BotConstants",
-      "symbol_kind": "source.lang.swift.decl.struct",
+      "file": "/Users/nicolas/Development/GIT/EightySixPercent_iOS_SDKBuilding/EightySixPercent/Lunabot/Classes/WorkflowManager/Model/EPInputOption.swift",
+      "line": 43,
+      "symbol": "EPInputOption.init(itemTitle:itemSubtitle:imageUrl:itemValue:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     }
   ],
-  "source_directory": "/Users/nicolas/FTPDownloads/EightySixPercent"
+  "source_directory": "/Users/nicolas/Development/GIT/EightySixPercent_iOS_SDKBuilding"
 }

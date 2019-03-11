@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>EPContextObject Class Reference</title>
+    <title>EPBubbleAppearanceOption Class Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
     <meta charset='utf-8'>
@@ -10,8 +10,8 @@
     
   </head>
   <body>
-    <a name="//apple_ref/swift/Class/EPContextObject" class="dashAnchor"></a>
-    <a title="EPContextObject Class Reference"></a>
+    <a name="//apple_ref/swift/Class/EPBubbleAppearanceOption" class="dashAnchor"></a>
+    <a title="EPBubbleAppearanceOption Class Reference"></a>
     <header>
       <div class="content-wrapper">
         <p><a href="../index.html">EightySixPercent Docs</a></p>
@@ -21,7 +21,7 @@
       <p id="breadcrumbs">
         <a href="../index.html">EightySixPercent Reference</a>
         <img id="carat" src="../img/carat.png" />
-        EPContextObject Class Reference
+        EPBubbleAppearanceOption Class Reference
       </p>
     </div>
     <div class="content-wrapper">
@@ -135,32 +135,25 @@
       <article class="main-content">
         <section>
           <section class="section">
-            <h1>EPContextObject</h1>
+            <h1>EPBubbleAppearanceOption</h1>
               <div class="declaration">
                 <div class="language">
-                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">EPContextObject</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">EPBubbleAppearanceOption</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
 
                 </div>
               </div>
-            <p>An EPContextObject represents a valu stored into a chat conversation context.</p>
+            <p>Object representing the bubble appearance.</p>
 
           </section>
           <section class="section task-group-section">
             <div class="task-group">
-              <div class="task-name-container">
-                <a name="/Variables"></a>
-                <a name="//apple_ref/swift/Section/Variables" class="dashAnchor"></a>
-                <a href="#/Variables">
-                  <h3 class="section-name">Variables</h3>
-                </a>
-              </div>
               <ul>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:16EightySixPercent15EPContextObjectC3keySSvp"></a>
-                    <a name="//apple_ref/swift/Property/key" class="dashAnchor"></a>
-                    <a class="token" href="#/s:16EightySixPercent15EPContextObjectC3keySSvp">key</a>
+                    <a name="/s:16EightySixPercent24EPBubbleAppearanceOptionC9textColorSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/textColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:16EightySixPercent24EPBubbleAppearanceOptionC9textColorSo7UIColorCvp">textColor</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -168,14 +161,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The context key.</p>
+                        <p>The message text color.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">key</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">textColor</span><span class="p">:</span> <span class="kt">UIColor</span></code></pre>
 
                         </div>
                       </div>
@@ -185,9 +178,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:16EightySixPercent15EPContextObjectC5valueypvp"></a>
-                    <a name="//apple_ref/swift/Property/value" class="dashAnchor"></a>
-                    <a class="token" href="#/s:16EightySixPercent15EPContextObjectC5valueypvp">value</a>
+                    <a name="/s:16EightySixPercent24EPBubbleAppearanceOptionC15strongTextColorSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/strongTextColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:16EightySixPercent24EPBubbleAppearanceOptionC15strongTextColorSo7UIColorCvp">strongTextColor</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -195,15 +188,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The value associated with the context key. This is the raw value.
-For example, for a date it will be the timestamp.</p>
+                        <p>The message text color for a <q>strong</q> message.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">Any</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">strongTextColor</span><span class="p">:</span> <span class="kt">UIColor</span></code></pre>
 
                         </div>
                       </div>
@@ -213,9 +205,9 @@ For example, for a date it will be the timestamp.</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:16EightySixPercent15EPContextObjectC6base64SSSgvp"></a>
-                    <a name="//apple_ref/swift/Property/base64" class="dashAnchor"></a>
-                    <a class="token" href="#/s:16EightySixPercent15EPContextObjectC6base64SSSgvp">base64</a>
+                    <a name="/s:16EightySixPercent24EPBubbleAppearanceOptionC15backgroundColorSo7UIColorCSgvp"></a>
+                    <a name="//apple_ref/swift/Property/backgroundColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:16EightySixPercent24EPBubbleAppearanceOptionC15backgroundColorSo7UIColorCSgvp">backgroundColor</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -223,14 +215,14 @@ For example, for a date it will be the timestamp.</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>A data base 64 string if this context object represents a file.</p>
+                        <p>The message background color/</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">base64</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">backgroundColor</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">?</span></code></pre>
 
                         </div>
                       </div>
@@ -240,9 +232,9 @@ For example, for a date it will be the timestamp.</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:16EightySixPercent15EPContextObjectC14formattedValueSSSgvp"></a>
-                    <a name="//apple_ref/swift/Property/formattedValue" class="dashAnchor"></a>
-                    <a class="token" href="#/s:16EightySixPercent15EPContextObjectC14formattedValueSSSgvp">formattedValue</a>
+                    <a name="/s:16EightySixPercent24EPBubbleAppearanceOptionC20avatarPictureRoundedSbvp"></a>
+                    <a name="//apple_ref/swift/Property/avatarPictureRounded" class="dashAnchor"></a>
+                    <a class="token" href="#/s:16EightySixPercent24EPBubbleAppearanceOptionC20avatarPictureRoundedSbvp">avatarPictureRounded</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -250,151 +242,16 @@ For example, for a date it will be the timestamp.</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The formatted value to display in a message instead of the value itself.</p>
+                        <p>If set to <code>true</code> the avatar picture will be rounded.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">formattedValue</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">avatarPictureRounded</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
 
                         </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <div class="task-name-container">
-                <a name="/Initialization"></a>
-                <a name="//apple_ref/swift/Section/Initialization" class="dashAnchor"></a>
-                <a href="#/Initialization">
-                  <h3 class="section-name">Initialization</h3>
-                </a>
-              </div>
-              <ul>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:16EightySixPercent15EPContextObjectC3key5value6base6414formattedValueACSS_ypSSSgAHtcfc"></a>
-                    <a name="//apple_ref/swift/Method/init(key:value:base64:formattedValue:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:16EightySixPercent15EPContextObjectC3key5value6base6414formattedValueACSS_ypSSSgAHtcfc">init(key:value:base64:formattedValue:)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Initializes a new EPContextObject.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">required</span> <span class="nf">init</span><span class="p">(</span><span class="nv">key</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">Any</span><span class="p">,</span> <span class="nv">base64</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">formattedValue</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>key</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>The context key.</p>
-                                </div>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>value</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>The associated value.</p>
-                                </div>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>base64</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>A data base64 string. (optional)</p>
-                                </div>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>formattedValue</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>A formatted value to use in a message instead of the value itself. (optional)</p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <div class="task-name-container">
-                <a name="/Utils"></a>
-                <a name="//apple_ref/swift/Section/Utils" class="dashAnchor"></a>
-                <a href="#/Utils">
-                  <h3 class="section-name">Utils</h3>
-                </a>
-              </div>
-              <ul>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:16EightySixPercent15EPContextObjectC6toJSONSDySSypGyF"></a>
-                    <a name="//apple_ref/swift/Method/toJSON()" class="dashAnchor"></a>
-                    <a class="token" href="#/s:16EightySixPercent15EPContextObjectC6toJSONSDySSypGyF">toJSON()</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Returns a JSON version of the EPContextObject.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">toJSON</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">]</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div>
-                        <h4>Return Value</h4>
-                        <p>A JSON dictionary representing the EPContextObject.</p>
                       </div>
                     </section>
                   </div>
@@ -402,9 +259,9 @@ For example, for a date it will be the timestamp.</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@M@EightySixPercent@objc(cs)EPContextObject(py)hashValue"></a>
-                    <a name="//apple_ref/swift/Property/hashValue" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@EightySixPercent@objc(cs)EPContextObject(py)hashValue">hashValue</a>
+                    <a name="/s:16EightySixPercent24EPBubbleAppearanceOptionC11bubbleImageSo7UIImageCSgvp"></a>
+                    <a name="//apple_ref/swift/Property/bubbleImage" class="dashAnchor"></a>
+                    <a class="token" href="#/s:16EightySixPercent24EPBubbleAppearanceOptionC11bubbleImageSo7UIImageCSgvp">bubbleImage</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -412,14 +269,68 @@ For example, for a date it will be the timestamp.</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>This hashValue is a combination between: <code><a href="../Classes/EPContextObject.html#/s:16EightySixPercent15EPContextObjectC3keySSvp">key</a></code>, <code><a href="../Classes/EPContextObject.html#/s:16EightySixPercent15EPContextObjectC5valueypvp">value</a></code>, <code><a href="../Classes/EPContextObject.html#/s:16EightySixPercent15EPContextObjectC6base64SSSgvp">base64</a></code> and <code>formatted</code> value. Then, <code>isEqual</code> will return <code>true</code> for context objects representing exactly the same thing.</p>
+                        <p>The bubble background image. Will be tinted by the <code><a href="../Classes/EPBubbleAppearanceOption.html#/s:16EightySixPercent24EPBubbleAppearanceOptionC15backgroundColorSo7UIColorCSgvp">backgroundColor</a></code>.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">override</span> <span class="k">var</span> <span class="nv">hashValue</span><span class="p">:</span> <span class="kt">Int</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">bubbleImage</span><span class="p">:</span> <span class="kt">UIImage</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:16EightySixPercent24EPBubbleAppearanceOptionC15bubbleOverImageSo7UIImageCSgvp"></a>
+                    <a name="//apple_ref/swift/Property/bubbleOverImage" class="dashAnchor"></a>
+                    <a class="token" href="#/s:16EightySixPercent24EPBubbleAppearanceOptionC15bubbleOverImageSo7UIImageCSgvp">bubbleOverImage</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>An image to display over the bubble (for videos/images).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">bubbleOverImage</span><span class="p">:</span> <span class="kt">UIImage</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:16EightySixPercent24EPBubbleAppearanceOptionC010cellLayoutF0AA0d4CellhF0CSgvp"></a>
+                    <a name="//apple_ref/swift/Property/cellLayoutOption" class="dashAnchor"></a>
+                    <a class="token" href="#/s:16EightySixPercent24EPBubbleAppearanceOptionC010cellLayoutF0AA0d4CellhF0CSgvp">cellLayoutOption</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The bubble cell layout option.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">cellLayoutOption</span><span class="p">:</span> <span class="kt"><a href="../Classes/EPBubbleCellLayoutOption.html">EPBubbleCellLayoutOption</a></span><span class="o">!</span></code></pre>
 
                         </div>
                       </div>

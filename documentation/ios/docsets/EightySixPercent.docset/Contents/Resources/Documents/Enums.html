@@ -31,6 +31,21 @@
             <a href="Classes.html">Classes</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
+                <a href="Classes/EPAppearance.html">EPAppearance</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/EPBubbleAppearanceOption.html">EPBubbleAppearanceOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/EPBubbleCellLayoutOption.html">EPBubbleCellLayoutOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/EPBubbleChatAppearanceOption.html">EPBubbleChatAppearanceOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/EPBubbleLayoutContext.html">EPBubbleLayoutContext</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="Classes/EPChatConversation.html">EPChatConversation</a>
               </li>
               <li class="nav-group-task">
@@ -43,7 +58,19 @@
                 <a href="Classes/EPContextObject.html">EPContextObject</a>
               </li>
               <li class="nav-group-task">
+                <a href="Classes/EPCustomInputType.html">EPCustomInputType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/EPInputChatAppearanceOption.html">EPInputChatAppearanceOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/EPInputOption.html">EPInputOption</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="Classes/EPManager.html">EPManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/EPTypingAnimation.html">EPTypingAnimation</a>
               </li>
             </ul>
           </li>
@@ -52,6 +79,21 @@
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
                 <a href="Enums/EPBotFetchingStrategy.html">EPBotFetchingStrategy</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums.html#/s:16EightySixPercent17EPInputLayoutModeO">EPInputLayoutMode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums.html#/s:16EightySixPercent26EPInputOptionItemValueTypeO">EPInputOptionItemValueType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums.html#/s:16EightySixPercent16EPMessageContentO">EPMessageContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums.html#/s:16EightySixPercent34EPWorkflowManagerAsyncTaskResponseO">EPWorkflowManagerAsyncTaskResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums.html#/s:16EightySixPercent35EPWorkflowManagerDataSourceResponseO">EPWorkflowManagerDataSourceResponse</a>
               </li>
             </ul>
           </li>
@@ -70,7 +112,21 @@
                 <a href="Protocols/EPChatMessageViewControllerDelegate.html">EPChatMessageViewControllerDelegate</a>
               </li>
               <li class="nav-group-task">
+                <a href="Protocols/EPInputType.html">EPInputType</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="Protocols/EPManagerDelegate.html">EPManagerDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Typealiases.html#/s:16EightySixPercent20EPMessageSendClosurea">EPMessageSendClosure</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Typealiases.html#/s:16EightySixPercent19EPSendOptionClosurea">EPSendOptionClosure</a>
               </li>
             </ul>
           </li>
@@ -84,6 +140,37 @@
 
           </section>
           <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:16EightySixPercent16EPMessageContentO"></a>
+                    <a name="//apple_ref/swift/Enum/EPMessageContent" class="dashAnchor"></a>
+                    <a class="token" href="#/s:16EightySixPercent16EPMessageContentO">EPMessageContent</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>An enum representing the message content type.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">EPMessageContent</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
             <div class="task-group">
               <ul>
                 <li class="item">
@@ -122,10 +209,153 @@
                 </li>
               </ul>
             </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:16EightySixPercent17EPInputLayoutModeO"></a>
+                    <a name="//apple_ref/swift/Enum/EPInputLayoutMode" class="dashAnchor"></a>
+                    <a class="token" href="#/s:16EightySixPercent17EPInputLayoutModeO">EPInputLayoutMode</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Represents the input layout mode.</p>
+
+<ul>
+<li><code>fixeSizeKeyboard</code>: the input component will have a fixed size.</li>
+<li><code>multipleSizePulley</code>: the input component will have multiple sizes: the user can make it small, medium or nearly fullscreen.</li>
+<li><code>fullScreen</code>: the input component will be displayed fullscreen.</li>
+</ul>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">EPInputLayoutMode</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:16EightySixPercent35EPWorkflowManagerDataSourceResponseO"></a>
+                    <a name="//apple_ref/swift/Enum/EPWorkflowManagerDataSourceResponse" class="dashAnchor"></a>
+                    <a class="token" href="#/s:16EightySixPercent35EPWorkflowManagerDataSourceResponseO">EPWorkflowManagerDataSourceResponse</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Represents a response for the input options external fetching.</p>
+
+<ul>
+<li><code>default</code>: bot provided options (already included in the bot from the Bot Editor).</li>
+<li>customInputOptions: list of custom input options.</li>
+<li>customInputOptionsError: input options fetching error.</li>
+</ul>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">EPWorkflowManagerDataSourceResponse</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:16EightySixPercent34EPWorkflowManagerAsyncTaskResponseO"></a>
+                    <a name="//apple_ref/swift/Enum/EPWorkflowManagerAsyncTaskResponse" class="dashAnchor"></a>
+                    <a class="token" href="#/s:16EightySixPercent34EPWorkflowManagerAsyncTaskResponseO">EPWorkflowManagerAsyncTaskResponse</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Represents a response for the asynchronous task running.</p>
+
+<ul>
+<li><code>default</code>: the asynchronous task message will be displayed as defined in the bot.</li>
+<li>custom: custom message content to update the displayed message. You can also provide context objects to update the chat conversation context.</li>
+<li>error: asynchronous task running error.</li>
+</ul>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">EPWorkflowManagerAsyncTaskResponse</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:16EightySixPercent26EPInputOptionItemValueTypeO"></a>
+                    <a name="//apple_ref/swift/Enum/EPInputOptionItemValueType" class="dashAnchor"></a>
+                    <a class="token" href="#/s:16EightySixPercent26EPInputOptionItemValueTypeO">EPInputOptionItemValueType</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Represents the value type of an input option externally fetched.</p>
+
+<ul>
+<li>string: The associated value is a string.</li>
+<li>boolean: The associated value is a boolean.</li>
+</ul>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">EPInputOptionItemValueType</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
           </section>
         </section>
         <section id="footer">
-          <p>Copyright © Lunabot SAS 2019. All rights reserved. (Last updated: 2019-02-27)</p>
+          <p>Copyright © Lunabot SAS 2019. All rights reserved. (Last updated: 2019-03-08)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.5</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>EPChatConversation Class Reference</title>
+    <title>EPAppearance Class Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
     <meta charset='utf-8'>
@@ -10,8 +10,8 @@
     
   </head>
   <body>
-    <a name="//apple_ref/swift/Class/EPChatConversation" class="dashAnchor"></a>
-    <a title="EPChatConversation Class Reference"></a>
+    <a name="//apple_ref/swift/Class/EPAppearance" class="dashAnchor"></a>
+    <a title="EPAppearance Class Reference"></a>
     <header>
       <div class="content-wrapper">
         <p><a href="../index.html">EightySixPercent Docs</a></p>
@@ -21,7 +21,7 @@
       <p id="breadcrumbs">
         <a href="../index.html">EightySixPercent Reference</a>
         <img id="carat" src="../img/carat.png" />
-        EPChatConversation Class Reference
+        EPAppearance Class Reference
       </p>
     </div>
     <div class="content-wrapper">
@@ -135,33 +135,25 @@
       <article class="main-content">
         <section>
           <section class="section">
-            <h1>EPChatConversation</h1>
+            <h1>EPAppearance</h1>
               <div class="declaration">
                 <div class="language">
-                  <pre class="highlight swift"><code><span class="kd">@objcMembers</span>
-<span class="kd">public</span> <span class="kd">class</span> <span class="kt">EPChatConversation</span> <span class="p">:</span> <span class="kt">Object</span><span class="p">,</span> <span class="kt">Codable</span></code></pre>
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">EPAppearance</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
 
                 </div>
               </div>
-            <p>This object represents a chat conversation in which a bot will run.</p>
+            <p>Object representing the appearance of a chat conversation.</p>
 
           </section>
           <section class="section task-group-section">
             <div class="task-group">
-              <div class="task-name-container">
-                <a name="/Public%20variables"></a>
-                <a name="//apple_ref/swift/Section/Public variables" class="dashAnchor"></a>
-                <a href="#/Public%20variables">
-                  <h3 class="section-name">Public variables</h3>
-                </a>
-              </div>
               <ul>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:16EightySixPercent18EPChatConversationC2idSSvp"></a>
-                    <a name="//apple_ref/swift/Property/id" class="dashAnchor"></a>
-                    <a class="token" href="#/s:16EightySixPercent18EPChatConversationC2idSSvp">id</a>
+                    <a name="/s:16EightySixPercent12EPAppearanceC13mainTintColorSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/mainTintColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:16EightySixPercent12EPAppearanceC13mainTintColorSo7UIColorCvp">mainTintColor</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -169,14 +161,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The id of the chat conversation.</p>
+                        <p>The appearance main tint color</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">internal(set)</span> <span class="kd">dynamic</span> <span class="k">var</span> <span class="nv">id</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">mainTintColor</span><span class="p">:</span> <span class="kt">UIColor</span></code></pre>
 
                         </div>
                       </div>
@@ -186,9 +178,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:16EightySixPercent18EPChatConversationC9updatedAt10Foundation4DateVvp"></a>
-                    <a name="//apple_ref/swift/Property/updatedAt" class="dashAnchor"></a>
-                    <a class="token" href="#/s:16EightySixPercent18EPChatConversationC9updatedAt10Foundation4DateVvp">updatedAt</a>
+                    <a name="/s:16EightySixPercent12EPAppearanceC16bubbleAppearanceAA012EPBubbleChatF6OptionCSgvp"></a>
+                    <a name="//apple_ref/swift/Property/bubbleAppearance" class="dashAnchor"></a>
+                    <a class="token" href="#/s:16EightySixPercent12EPAppearanceC16bubbleAppearanceAA012EPBubbleChatF6OptionCSgvp">bubbleAppearance</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -196,14 +188,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The last date at which the chat conversation was modified.</p>
+                        <p>The appearance of the different messages bubbles (incoming message, outgoing message, with or without a tail).</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">internal(set)</span> <span class="kd">dynamic</span> <span class="k">var</span> <span class="nv">updatedAt</span><span class="p">:</span> <span class="kt">Date</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">bubbleAppearance</span><span class="p">:</span> <span class="kt"><a href="../Classes/EPBubbleChatAppearanceOption.html">EPBubbleChatAppearanceOption</a></span><span class="o">!</span></code></pre>
 
                         </div>
                       </div>
@@ -213,9 +205,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:16EightySixPercent18EPChatConversationC9avatarUrlSSvp"></a>
-                    <a name="//apple_ref/swift/Property/avatarUrl" class="dashAnchor"></a>
-                    <a class="token" href="#/s:16EightySixPercent18EPChatConversationC9avatarUrlSSvp">avatarUrl</a>
+                    <a name="/s:16EightySixPercent12EPAppearanceC15inputAppearanceAA011EPInputChatF6OptionCSgvp"></a>
+                    <a name="//apple_ref/swift/Property/inputAppearance" class="dashAnchor"></a>
+                    <a class="token" href="#/s:16EightySixPercent12EPAppearanceC15inputAppearanceAA011EPInputChatF6OptionCSgvp">inputAppearance</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -223,14 +215,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The url of the current bot avatar image.</p>
+                        <p>The appearance of the input UI components.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">internal(set)</span> <span class="kd">dynamic</span> <span class="k">var</span> <span class="nv">avatarUrl</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">inputAppearance</span><span class="p">:</span> <span class="kt"><a href="../Classes/EPInputChatAppearanceOption.html">EPInputChatAppearanceOption</a></span><span class="o">!</span></code></pre>
 
                         </div>
                       </div>
@@ -240,9 +232,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:16EightySixPercent18EPChatConversationC7botUuidSSvp"></a>
-                    <a name="//apple_ref/swift/Property/botUuid" class="dashAnchor"></a>
-                    <a class="token" href="#/s:16EightySixPercent18EPChatConversationC7botUuidSSvp">botUuid</a>
+                    <a name="/s:16EightySixPercent12EPAppearanceC14customFontNameSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/customFontName" class="dashAnchor"></a>
+                    <a class="token" href="#/s:16EightySixPercent12EPAppearanceC14customFontNameSSSgvp">customFontName</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -250,14 +242,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The uuid of the currently played bot.</p>
+                        <p>Font to use to display the messages. Default value is <code>nil</code>. (optional)</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">internal(set)</span> <span class="kd">dynamic</span> <span class="k">var</span> <span class="nv">botUuid</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">customFontName</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
 
                         </div>
                       </div>
@@ -267,9 +259,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:16EightySixPercent18EPChatConversationC12languageCodeSSvp"></a>
-                    <a name="//apple_ref/swift/Property/languageCode" class="dashAnchor"></a>
-                    <a class="token" href="#/s:16EightySixPercent18EPChatConversationC12languageCodeSSvp">languageCode</a>
+                    <a name="/s:16EightySixPercent12EPAppearanceC20customStrongFontNameSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/customStrongFontName" class="dashAnchor"></a>
+                    <a class="token" href="#/s:16EightySixPercent12EPAppearanceC20customStrongFontNameSSSgvp">customStrongFontName</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -277,14 +269,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The current chat conversation language code. It is used to determine the language used by the bot.</p>
+                        <p>Font to use for <q>strong</q> messages. Default value is <code>nil</code>. (optional)</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">internal(set)</span> <span class="kd">dynamic</span> <span class="k">var</span> <span class="nv">languageCode</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">customStrongFontName</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
 
                         </div>
                       </div>
@@ -294,9 +286,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:16EightySixPercent18EPChatConversationC15botContextValueSDySSypGvp"></a>
-                    <a name="//apple_ref/swift/Property/botContextValue" class="dashAnchor"></a>
-                    <a class="token" href="#/s:16EightySixPercent18EPChatConversationC15botContextValueSDySSypGvp">botContextValue</a>
+                    <a name="/s:16EightySixPercent12EPAppearanceC21customBackgroundImageSo7UIImageCSgvp"></a>
+                    <a name="//apple_ref/swift/Property/customBackgroundImage" class="dashAnchor"></a>
+                    <a class="token" href="#/s:16EightySixPercent12EPAppearanceC21customBackgroundImageSo7UIImageCSgvp">customBackgroundImage</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -304,14 +296,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Get the bot context as a dictonary.</p>
+                        <p>Chat conversation background image. Default value is <code>nil</code>. (optional)</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">botContextValue</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">]</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">customBackgroundImage</span><span class="p">:</span> <span class="kt">UIImage</span><span class="p">?</span></code></pre>
 
                         </div>
                       </div>
@@ -321,9 +313,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:16EightySixPercent18EPChatConversationC17botContextObjectsSayAA15EPContextObjectCGvp"></a>
-                    <a name="//apple_ref/swift/Property/botContextObjects" class="dashAnchor"></a>
-                    <a class="token" href="#/s:16EightySixPercent18EPChatConversationC17botContextObjectsSayAA15EPContextObjectCGvp">botContextObjects</a>
+                    <a name="/s:16EightySixPercent12EPAppearanceC21customBackgroundColorSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/customBackgroundColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:16EightySixPercent12EPAppearanceC21customBackgroundColorSo7UIColorCvp">customBackgroundColor</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -331,14 +323,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Get the bot context as an array of EPContextObject objects.</p>
+                        <p>Chat conversation background color. Default value is <code>UIColor.clear</code>.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">botContextObjects</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Classes/EPContextObject.html">EPContextObject</a></span><span class="p">]</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">customBackgroundColor</span><span class="p">:</span> <span class="kt">UIColor</span></code></pre>
 
                         </div>
                       </div>
@@ -348,9 +340,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:16EightySixPercent18EPChatConversationC23conversationDescriptionSSvp"></a>
-                    <a name="//apple_ref/swift/Property/conversationDescription" class="dashAnchor"></a>
-                    <a class="token" href="#/s:16EightySixPercent18EPChatConversationC23conversationDescriptionSSvp">conversationDescription</a>
+                    <a name="/s:16EightySixPercent12EPAppearanceC22customSectionDateColorSo7UIColorCSgvp"></a>
+                    <a name="//apple_ref/swift/Property/customSectionDateColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:16EightySixPercent12EPAppearanceC22customSectionDateColorSo7UIColorCSgvp">customSectionDateColor</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -358,14 +350,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Represents the name of the currently running bot. If the bot doesn&rsquo;t exist, a default name is returned.</p>
+                        <p>The font color of the date section title.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">conversationDescription</span><span class="p">:</span> <span class="kt">String</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">customSectionDateColor</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">?</span></code></pre>
 
                         </div>
                       </div>
@@ -375,9 +367,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:16EightySixPercent18EPChatConversationC11allMessagesSayAA0D7MessageCGvp"></a>
-                    <a name="//apple_ref/swift/Property/allMessages" class="dashAnchor"></a>
-                    <a class="token" href="#/s:16EightySixPercent18EPChatConversationC11allMessagesSayAA0D7MessageCGvp">allMessages</a>
+                    <a name="/s:16EightySixPercent12EPAppearanceC17endBotButtonColorSo7UIColorCSgvp"></a>
+                    <a name="//apple_ref/swift/Property/endBotButtonColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:16EightySixPercent12EPAppearanceC17endBotButtonColorSo7UIColorCSgvp">endBotButtonColor</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -385,37 +377,26 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Get all the chat conversation messages.</p>
+                        <p>When displaying a button at the bot end, this is its background color.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">allMessages</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Classes.html#/s:16EightySixPercent13EPChatMessageC">EPChatMessage</a></span><span class="p">]</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">endBotButtonColor</span><span class="p">:</span> <span class="kt">UIColor</span><span class="o">!</span></code></pre>
 
                         </div>
                       </div>
                     </section>
                   </div>
                 </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <div class="task-name-container">
-                <a name="/Restoration"></a>
-                <a name="//apple_ref/swift/Section/Restoration" class="dashAnchor"></a>
-                <a href="#/Restoration">
-                  <h3 class="section-name">Restoration</h3>
-                </a>
-              </div>
-              <ul>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:16EightySixPercent18EPChatConversationC10createFrom12exportedDataACSg10Foundation0I0V_tKFZ"></a>
-                    <a name="//apple_ref/swift/Method/createFrom(exportedData:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:16EightySixPercent18EPChatConversationC10createFrom12exportedDataACSg10Foundation0I0V_tKFZ">createFrom(exportedData:)</a>
+                    <a name="/s:16EightySixPercent12EPAppearanceC21endBotButtonTextColorSo7UIColorCSgvp"></a>
+                    <a name="//apple_ref/swift/Property/endBotButtonTextColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:16EightySixPercent12EPAppearanceC21endBotButtonTextColorSo7UIColorCSgvp">endBotButtonTextColor</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -423,20 +404,122 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Creates a chat conversation object based on the provided data content.</p>
-<div class="aside aside-throws">
-    <p class="aside-title">Throws</p>
-    An error containing the following message: The provided data is malformed or is not a chat conversation export data.
-
-</div>
+                        <p>When displaying a button at the bot end, this is its text color.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
-<span class="kd">public</span> <span class="kd">class</span> <span class="kd">func</span> <span class="nf">createFrom</span><span class="p">(</span><span class="nv">exportedData</span><span class="p">:</span> <span class="kt">Data</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">EPChatConversation</span><span class="p">?</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">endBotButtonTextColor</span><span class="p">:</span> <span class="kt">UIColor</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:16EightySixPercent12EPAppearanceC17animationDurationSdvp"></a>
+                    <a name="//apple_ref/swift/Property/animationDuration" class="dashAnchor"></a>
+                    <a class="token" href="#/s:16EightySixPercent12EPAppearanceC17animationDurationSdvp">animationDuration</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The duration of the input display animation.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">animationDuration</span><span class="p">:</span> <span class="kt">TimeInterval</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:16EightySixPercent12EPAppearanceC22animationSpringDamping12CoreGraphics7CGFloatVvp"></a>
+                    <a name="//apple_ref/swift/Property/animationSpringDamping" class="dashAnchor"></a>
+                    <a class="token" href="#/s:16EightySixPercent12EPAppearanceC22animationSpringDamping12CoreGraphics7CGFloatVvp">animationSpringDamping</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The spring damping for setting the drawer position.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">animationSpringDamping</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:16EightySixPercent12EPAppearanceC30animationSpringInitialVelocity12CoreGraphics7CGFloatVvp"></a>
+                    <a name="//apple_ref/swift/Property/animationSpringInitialVelocity" class="dashAnchor"></a>
+                    <a class="token" href="#/s:16EightySixPercent12EPAppearanceC30animationSpringInitialVelocity12CoreGraphics7CGFloatVvp">animationSpringInitialVelocity</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The spring initial velocity for setting the drawer position.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">animationSpringInitialVelocity</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:16EightySixPercent12EPAppearanceC11regularFont4sizeSo6UIFontC12CoreGraphics7CGFloatV_tF"></a>
+                    <a name="//apple_ref/swift/Method/regularFont(size:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:16EightySixPercent12EPAppearanceC11regularFont4sizeSo6UIFontC12CoreGraphics7CGFloatV_tF">regularFont(size:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Get the regular font based on the appearance with the specified size.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">regularFont</span><span class="p">(</span><span class="nv">size</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">UIFont</span></code></pre>
 
                         </div>
                       </div>
@@ -447,12 +530,12 @@
                             <tr>
                               <td>
                                 <code>
-                                <em>exportedData</em>
+                                <em>size</em>
                                 </code>
                               </td>
                               <td>
                                 <div>
-                                  <p>The data to use to restore the chat conversation. This data must be obtained from the chat conversation export method.</p>
+                                  <p>The size of the font to get.</p>
                                 </div>
                               </td>
                             </tr>
@@ -461,44 +544,7 @@
                       </div>
                       <div>
                         <h4>Return Value</h4>
-                        <p>The restored chat conversation or <code>nil</code> if the restoration didn&rsquo;t work.</p>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <div class="task-name-container">
-                <a name="/JSON%20Coding"></a>
-                <a name="//apple_ref/swift/Section/JSON Coding" class="dashAnchor"></a>
-                <a href="#/JSON%20Coding">
-                  <h3 class="section-name">JSON Coding</h3>
-                </a>
-              </div>
-              <ul>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:Se4fromxs7Decoder_p_tKcfc"></a>
-                    <a name="//apple_ref/swift/Method/init(from:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:Se4fromxs7Decoder_p_tKcfc">init(from:)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">required</span> <span class="nf">init</span><span class="p">(</span><span class="n">from</span> <span class="nv">decoder</span><span class="p">:</span> <span class="kt">Decoder</span><span class="p">)</span> <span class="k">throws</span></code></pre>
-
-                        </div>
+                        <p>The font with the specified size.</p>
                       </div>
                     </section>
                   </div>
@@ -506,9 +552,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:SE6encode2toys7Encoder_p_tKF"></a>
-                    <a name="//apple_ref/swift/Method/encode(to:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:SE6encode2toys7Encoder_p_tKF">encode(to:)</a>
+                    <a name="/s:16EightySixPercent12EPAppearanceC10strongFont4sizeSo6UIFontC12CoreGraphics7CGFloatV_tF"></a>
+                    <a name="//apple_ref/swift/Method/strongFont(size:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:16EightySixPercent12EPAppearanceC10strongFont4sizeSo6UIFontC12CoreGraphics7CGFloatV_tF">strongFont(size:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -516,51 +562,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">encode</span><span class="p">(</span><span class="n">to</span> <span class="nv">encoder</span><span class="p">:</span> <span class="kt">Encoder</span><span class="p">)</span> <span class="k">throws</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <div class="task-name-container">
-                <a name="/Initialization"></a>
-                <a name="//apple_ref/swift/Section/Initialization" class="dashAnchor"></a>
-                <a href="#/Initialization">
-                  <h3 class="section-name">Initialization</h3>
-                </a>
-              </div>
-              <ul>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:16EightySixPercent18EPChatConversationC7botUuid04chatE2Id14initialContextACSS_SSSgSayAA15EPContextObjectCGtcfc"></a>
-                    <a name="//apple_ref/swift/Method/init(botUuid:chatConversationId:initialContext:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:16EightySixPercent18EPChatConversationC7botUuid04chatE2Id14initialContextACSS_SSSgSayAA15EPContextObjectCGtcfc">init(botUuid:chatConversationId:initialContext:)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Intializes a new chat conversation for the given bot UUID.</p>
+                        <p>Get the strong font based on the appearance with the specified size.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="n">convenience</span> <span class="nf">init</span><span class="p">(</span><span class="nv">botUuid</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">chatConversationId</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">initialContext</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Classes/EPContextObject.html">EPContextObject</a></span><span class="p">]</span> <span class="o">=</span> <span class="p">[])</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">strongFont</span><span class="p">(</span><span class="nv">size</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">UIFont</span></code></pre>
 
                         </div>
                       </div>
@@ -571,121 +580,21 @@
                             <tr>
                               <td>
                                 <code>
-                                <em>botUuid</em>
+                                <em>size</em>
                                 </code>
                               </td>
                               <td>
                                 <div>
-                                  <p>The bot UUID to use with this chat conversation.</p>
-                                </div>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>chatConversationId</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>A specific id to be able to retrieve the chat conversation later. Default value is <code>nil</code>.</p>
-                                </div>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>initalContext</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>An array of context objects to use as the initial chat conversation context. Default value is <code>[]</code>.</p>
+                                  <p>The size of the font to get.</p>
                                 </div>
                               </td>
                             </tr>
                           </tbody>
                         </table>
                       </div>
-                    </section>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <div class="task-name-container">
-                <a name="/Import%20/%20Export"></a>
-                <a name="//apple_ref/swift/Section/Import / Export" class="dashAnchor"></a>
-                <a href="#/Import%20/%20Export">
-                  <h3 class="section-name">Import / Export</h3>
-                </a>
-              </div>
-              <ul>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:16EightySixPercent18EPChatConversationC6export10Foundation4DataVSgyF"></a>
-                    <a name="//apple_ref/swift/Method/export()" class="dashAnchor"></a>
-                    <a class="token" href="#/s:16EightySixPercent18EPChatConversationC6export10Foundation4DataVSgyF">export()</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Export the chat conversation to a json data object.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">export</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Data</span><span class="p">?</span></code></pre>
-
-                        </div>
-                      </div>
                       <div>
                         <h4>Return Value</h4>
-                        <p>The chat conversation json data.</p>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <div class="task-name-container">
-                <a name="/Cleaning"></a>
-                <a name="//apple_ref/swift/Section/Cleaning" class="dashAnchor"></a>
-                <a href="#/Cleaning">
-                  <h3 class="section-name">Cleaning</h3>
-                </a>
-              </div>
-              <ul>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:16EightySixPercent18EPChatConversationC5clearyyF"></a>
-                    <a name="//apple_ref/swift/Method/clear()" class="dashAnchor"></a>
-                    <a class="token" href="#/s:16EightySixPercent18EPChatConversationC5clearyyF">clear()</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Clears the chat conversation content.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">clear</span><span class="p">()</span></code></pre>
-
-                        </div>
+                        <p>The font with the specified size.</p>
                       </div>
                     </section>
                   </div>

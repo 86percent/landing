@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Array Extension Reference</title>
+    <title>EPBubbleChatAppearanceOption Class Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
     <meta charset='utf-8'>
@@ -10,8 +10,8 @@
     
   </head>
   <body>
-    <a name="//apple_ref/swift/Extension/Array" class="dashAnchor"></a>
-    <a title="Array Extension Reference"></a>
+    <a name="//apple_ref/swift/Class/EPBubbleChatAppearanceOption" class="dashAnchor"></a>
+    <a title="EPBubbleChatAppearanceOption Class Reference"></a>
     <header>
       <div class="content-wrapper">
         <p><a href="../index.html">EightySixPercent Docs</a></p>
@@ -21,7 +21,7 @@
       <p id="breadcrumbs">
         <a href="../index.html">EightySixPercent Reference</a>
         <img id="carat" src="../img/carat.png" />
-        Array Extension Reference
+        EPBubbleChatAppearanceOption Class Reference
       </p>
     </div>
     <div class="content-wrapper">
@@ -135,14 +135,15 @@
       <article class="main-content">
         <section>
           <section class="section">
-            <h1>Array</h1>
+            <h1>EPBubbleChatAppearanceOption</h1>
               <div class="declaration">
                 <div class="language">
-                  <pre class="highlight swift"><code><span class="kd">struct</span> <span class="kt">Array</span><span class="o">&lt;</span><span class="kt">Element</span><span class="o">&gt;</span> <span class="p">:</span> <span class="n">_DestructorSafeContainer</span></code></pre>
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">EPBubbleChatAppearanceOption</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
 
                 </div>
               </div>
-            
+            <p>Object representing the appearance of the different messages bubbles.</p>
+
           </section>
           <section class="section task-group-section">
             <div class="task-group">
@@ -150,9 +151,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:Sa16EightySixPercentAA15EPContextObjectCRbzlE4jsonSayxGSDySSypG_tcfc"></a>
-                    <a name="//apple_ref/swift/Method/init(json:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:Sa16EightySixPercentAA15EPContextObjectCRbzlE4jsonSayxGSDySSypG_tcfc">init(json:)</a>
+                    <a name="/s:16EightySixPercent28EPBubbleChatAppearanceOptionC014incomingBubbleF0AA0dfG0CSgvp"></a>
+                    <a name="//apple_ref/swift/Property/incomingBubbleAppearance" class="dashAnchor"></a>
+                    <a class="token" href="#/s:16EightySixPercent28EPBubbleChatAppearanceOptionC014incomingBubbleF0AA0dfG0CSgvp">incomingBubbleAppearance</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -160,35 +161,16 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Initializes an array of EPContextObject from a JSON dictionary.</p>
+                        <p>The appearance to use for an incoming message bubble (with the tail).</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">json</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">])</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">incomingBubbleAppearance</span><span class="p">:</span> <span class="kt"><a href="../Classes/EPBubbleAppearanceOption.html">EPBubbleAppearanceOption</a></span><span class="o">!</span></code></pre>
 
                         </div>
-                      </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>json</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>The JSON from which to build</p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
                       </div>
                     </section>
                   </div>
@@ -196,9 +178,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:Sa16EightySixPercentAA15EPContextObjectCRbzlE6toJSONSDySSypGyF"></a>
-                    <a name="//apple_ref/swift/Method/toJSON()" class="dashAnchor"></a>
-                    <a class="token" href="#/s:Sa16EightySixPercentAA15EPContextObjectCRbzlE6toJSONSDySSypGyF">toJSON()</a>
+                    <a name="/s:16EightySixPercent28EPBubbleChatAppearanceOptionC014incomingBubbleF8FollowedAA0dfG0CSgvp"></a>
+                    <a name="//apple_ref/swift/Property/incomingBubbleAppearanceFollowed" class="dashAnchor"></a>
+                    <a class="token" href="#/s:16EightySixPercent28EPBubbleChatAppearanceOptionC014incomingBubbleF8FollowedAA0dfG0CSgvp">incomingBubbleAppearanceFollowed</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -206,20 +188,97 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Converts an array of EPContextObject into a JSON dictionary.</p>
+                        <p>The appearance to use for an incoming message bubble followed by another incoming message bubble (without the tail).</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">toJSON</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">]</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">incomingBubbleAppearanceFollowed</span><span class="p">:</span> <span class="kt"><a href="../Classes/EPBubbleAppearanceOption.html">EPBubbleAppearanceOption</a></span><span class="o">!</span></code></pre>
 
                         </div>
                       </div>
-                      <div>
-                        <h4>Return Value</h4>
-                        <p>The JSON dictionary created from the EPContextObject array.</p>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:16EightySixPercent28EPBubbleChatAppearanceOptionC014outgoingBubbleF0AA0dfG0CSgvp"></a>
+                    <a name="//apple_ref/swift/Property/outgoingBubbleAppearance" class="dashAnchor"></a>
+                    <a class="token" href="#/s:16EightySixPercent28EPBubbleChatAppearanceOptionC014outgoingBubbleF0AA0dfG0CSgvp">outgoingBubbleAppearance</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The appearance to use for an outgoing message bubble (with the tail).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">outgoingBubbleAppearance</span><span class="p">:</span> <span class="kt"><a href="../Classes/EPBubbleAppearanceOption.html">EPBubbleAppearanceOption</a></span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:16EightySixPercent28EPBubbleChatAppearanceOptionC014outgoingBubbleF8FollowedAA0dfG0CSgvp"></a>
+                    <a name="//apple_ref/swift/Property/outgoingBubbleAppearanceFollowed" class="dashAnchor"></a>
+                    <a class="token" href="#/s:16EightySixPercent28EPBubbleChatAppearanceOptionC014outgoingBubbleF8FollowedAA0dfG0CSgvp">outgoingBubbleAppearanceFollowed</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The appearance to use for an outgoing message bubble followed by another outgoing message bubble (without the tail).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">outgoingBubbleAppearanceFollowed</span><span class="p">:</span> <span class="kt"><a href="../Classes/EPBubbleAppearanceOption.html">EPBubbleAppearanceOption</a></span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:16EightySixPercent28EPBubbleChatAppearanceOptionC15typingAnimationAA08EPTypingI0CSgvp"></a>
+                    <a name="//apple_ref/swift/Property/typingAnimation" class="dashAnchor"></a>
+                    <a class="token" href="#/s:16EightySixPercent28EPBubbleChatAppearanceOptionC15typingAnimationAA08EPTypingI0CSgvp">typingAnimation</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The typing animation to use when the bot is writing a message.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">typingAnimation</span><span class="p">:</span> <span class="kt"><a href="../Classes/EPTypingAnimation.html">EPTypingAnimation</a></span><span class="o">!</span></code></pre>
+
+                        </div>
                       </div>
                     </section>
                   </div>
