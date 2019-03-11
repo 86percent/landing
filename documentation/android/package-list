@@ -1,0 +1,8 @@
+co.eightysixpercent.bot.fragment
+co.eightysixpercent.bot.interfaces
+co.eightysixpercent.bot.manager
+co.eightysixpercent.bot.model
+co.eightysixpercent.bot.model.realm
+co.eightysixpercent.bot.model.ui
+co.eightysixpercent.bot.utils
+co.eightysixpercent.bot.workflow.manager
