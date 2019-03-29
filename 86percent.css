@@ -3953,8 +3953,11 @@ a.close.disabled {
 .modal-open {
   overflow: hidden; }
   .modal-open .modal {
+	  z-index: 10000;
     overflow-x: hidden;
-    overflow-y: auto; }
+    overflow-y: auto; 
+    
+    }
 
 .modal {
   position: fixed;
