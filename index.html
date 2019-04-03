@@ -148,7 +148,7 @@
                     </div>
 
                     <div class="d-none d-md-block">
-                        <button type="button" class="d-none d-md-inline btn btn-primary transition-3d-hover text-left mb-2 mx-2" href="https://editor.86percent.co/welcome">
+                        <a class="btn btn-primary transition-3d-hover text-left mb-2 mx-2" href="https://editor.86percent.co/welcome">
                             <span class="media align-items-center">
                                 <span class="far fa-hand-point-right fa-2x mr-3"></span>
                                 <span class="media-body">
@@ -156,7 +156,7 @@
                                     <strong class="font-size-1">Try 86%</strong>
                                 </span>
                             </span>
-                        </button>
+                        </a>
 
                         <button type="button" class="btn btn-secondary transition-3d-hover text-left mb-2 mx-2" data-toggle="modal" data-target="#modal1">
                             <span class="media align-items-center">
@@ -174,34 +174,64 @@
                     <!-- Download App buttons  -->
                     <div class="d-block d-md-none">
                         <p>To learn more about 86% SDK, try out the demo Apps!</p>
-                        <!-- Button -->
-                        <a href="https://"
+                        <!-- Button App Store -->
+                        <a href="https://testflight.apple.com/join/0i0pqk9S"
                            class="btn btn-xs btn-dark transition-3d-hover text-left mb-2 mr-1">
-                                    <span class="media align-items-center">
-                                        <span class="fab fa-apple fa-2x mr-3"></span>
-                                        <span class="media-body">
-                                            <span class="d-block"><small>Download on the</small></span>
-                                            <strong class="font-size-1">App Store</strong>
-                                        </span>
+                                <span class="media align-items-center">
+                                    <span class="fab fa-apple fa-2x mr-3"></span>
+                                    <span class="media-body">
+                                        <span class="d-block"><small>Beta on the</small></span>
+                                        <strong class="font-size-1">App Store</strong>
                                     </span>
+                                </span>
                         </a>
                         <!-- End Button -->
-                        <!-- Button -->
+                        <!-- Button Play Store -->
                         <a href="https://play.google.com/store/apps/details?id=co.eightysixpercent.demo"
                            class="btn btn-xs btn-dark transition-3d-hover text-left mb-2">
-                                    <span class="media align-items-center">
-                                        <span class="fab fa-google-play fa-2x mr-3"></span>
-                                        <span class="media-body">
-                                            <span class="d-block"><small>Get it on</small></span>
-                                            <strong class="font-size-1">Google Play</strong>
-                                        </span>
+                                <span class="media align-items-center">
+                                    <span class="fab fa-google-play fa-2x mr-3"></span>
+                                    <span class="media-body">
+                                        <span class="d-block"><small>Get it on</small></span>
+                                        <strong class="font-size-1">Google Play</strong>
                                     </span>
+                                </span>
                         </a>
+                        <!-- End Button -->
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!--Modal: Name-->
+    <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+
+            <!--Content-->
+            <div class="modal-content">
+
+                <!--Body-->
+                <div class="modal-body mb-0 p-0">
+
+                    <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/DFQHFpFOVYc" allowfullscreen></iframe>
+                    </div>
+
+                </div>
+
+                <!--Footer-->
+                <div class="modal-footer justify-content-end">
+                    <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
+                    <a class="btn btn-primary btn-rounded btn-md ml-4" href="https://editor.86percent.co/welcome">Try 86% for free!</a>
+                </div>
+
+            </div>
+            <!--/.Content-->
+
+        </div>
+    </div>
+    <!--Modal: Name-->
 
     <!-- class="d-none d-md-block" -->
     <section id="section1">
@@ -215,35 +245,6 @@
 
                     <p>Users hate forms. Especially on a smartphone with a small screen. That is why forms conversion rates are very low (25 to 30% is a standard).</p>
                     <p>With <strong>86% SDK</strong>, build in-app conversational interfaces lighting fast in your iOS and Android Apps. And get breakthrough conversion rates as high as 86%.</p>
-
-                    <!--Modal: Name-->
-                    <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-lg" role="document">
-
-                            <!--Content-->
-                            <div class="modal-content">
-
-                                <!--Body-->
-                                <div class="modal-body mb-0 p-0">
-
-                                    <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/DFQHFpFOVYc" allowfullscreen></iframe>
-                                    </div>
-
-                                </div>
-
-                                <!--Footer-->
-                                <div class="modal-footer justify-content-end">
-                                    <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary btn-rounded btn-md ml-4" href="https://editor.86percent.co/welcome">Try 86% for free!</button>
-                                </div>
-
-                            </div>
-                            <!--/.Content-->
-
-                        </div>
-                    </div>
-                    <!--Modal: Name-->
 
                     <!-- TODO d-none d-md-block -->
                     <button type="button" class="btn btn-primary transition-3d-hover text-left mb-2" data-toggle="modal" data-target="#modal1">
@@ -404,8 +405,8 @@
 
                     <div id="mc_embed_signup_" style="max-width: 600px;margin:auto;">
 
-                        <h1 class="display-4 font-weight-bold" style="margin-top:64px;"><span class="text-secondary">Notify</span> me!</h1>
-                        <p>We will release a first beta very soon, subscribe so that you can test it before it becomes public.</p>
+                        <h1 class="display-4 font-weight-bold" style="margin-top:64px;"><span class="text-secondary">Stay</span> tuned!</h1>
+                        <p>To follow the latest evolutions of 86% SDK, register to our newsletter.</p>
 
                     <form action="https://86percent.us19.list-manage.com/subscribe/post?u=0219dc02fad7c5d593d04c8f8&amp;id=2f38c3b46c"
                           method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
@@ -488,25 +489,30 @@
             <h5>86% Demo App</h5>
 
             <!-- App Buttons -->
-            <p class="text-muted"><em>Coming soon</em></p>
-            <!--<button type="button" class="btn btn-xs btn-dark btn-block transition-3d-hover text-left mb-2 mr-1">-->
-                                  <!--<span class="media align-items-center">-->
-                                    <!--<span class="fab fa-apple fa-2x mr-3"></span>-->
-                                    <!--<span class="media-body">-->
-                                        <!--<span class="d-block"><small>Download on the</small></span>-->
-                                      <!--<strong class="font-size-1">App Store</strong>-->
-                                    <!--</span>-->
-                                  <!--</span>-->
-            <!--</button>-->
-            <!--<button type="button" class="btn btn-xs btn-dark btn-block transition-3d-hover text-left mb-2">-->
-                                  <!--<span class="media align-items-center">-->
-                                    <!--<span class="fab fa-google-play fa-2x mr-3"></span>-->
-                                    <!--<span class="media-body">-->
-                                        <!--<span class="d-block"><small>Get it on</small></span>-->
-                                      <!--<strong class="font-size-1">Google Play</strong>-->
-                                    <!--</span>-->
-                                  <!--</span>-->
-            <!--</button>-->
+            <!-- Button App Store -->
+            <a href="https://testflight.apple.com/join/0i0pqk9S"
+               class="btn btn-xs btn-dark transition-3d-hover text-left mb-2 mr-1">
+                                <span class="media align-items-center">
+                                    <span class="fab fa-apple fa-2x mr-3"></span>
+                                    <span class="media-body">
+                                        <span class="d-block"><small>Beta on the</small></span>
+                                        <strong class="font-size-1">App Store</strong>
+                                    </span>
+                                </span>
+            </a>
+            <!-- End Button -->
+            <!-- Button Play Store -->
+            <a href="https://play.google.com/store/apps/details?id=co.eightysixpercent.demo"
+               class="btn btn-xs btn-dark transition-3d-hover text-left mb-2">
+                                <span class="media align-items-center">
+                                    <span class="fab fa-google-play fa-2x mr-3"></span>
+                                    <span class="media-body">
+                                        <span class="d-block"><small>Get it on</small></span>
+                                        <strong class="font-size-1">Google Play</strong>
+                                    </span>
+                                </span>
+            </a>
+            <!-- End Button -->
         </div>
     </div>
 </footer>
