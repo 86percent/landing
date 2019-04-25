@@ -14,13 +14,7 @@
             ini_set('display_errors', 1);
             require_once('./php/TwitterAPIExchange.php');
             
-            /** Set access tokens here - see: https://dev.twitter.com/apps/ **/
-            $settings = array(
-                'oauth_access_token' => "1065153562274082816-G7UQGXECH4Qc5YZMrclOcWR12H8Zaw",
-                'oauth_access_token_secret' => "XbTlAnHarEeR3RUAxXNIgLtfeTo2kCzbbzWtw0imDKQHe",
-                'consumer_key' => "hS7wi3fugA6XXf4h3cMQHc5wS",
-                'consumer_secret' => "unmhoX4dUUvhbNGq3PyOlOS0CVgNYDEv6PQ6WBDJscEm6n1FpF"
-            );
+            include('./includes/keys.php');
             
             $url = 'https://api.twitter.com/1.1/statuses/user_timeline.json';
             $getfield = '?screen_name=86percentSdk&count=3';
