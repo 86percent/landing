@@ -34,7 +34,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="86percent.css" >
-
+	
      <!-- Font Awesome -->
 	 <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-Bx4pytHkyTDy3aJKjGkGoHPt3tvv6zlwwjc3iqN7ktaiEMLDPqLSZYts2OjKcBx1" crossorigin="anonymous">
 
@@ -76,8 +76,21 @@
         }
 
         .pills {
-			padding: 6px 12px 6px 12px; margin-top: 14px; margin-left: 6px; background-color: white; color: #383273; border-radius: 25px;white-space:nowrap;
+			padding: 6px 12px 6px 12px;
+			margin-top: 14px;
+			margin-left: 6px;
+			background-color: white;
+			color: #383273;
+			border-radius: 25px;
+			white-space:nowrap;
 		}
+		
+		@media only screen and (max-width: 600px) {
+		  h1.display-4 {
+			  font-size: 2.4rem;
+			}
+		}
+
     </style>
 
     <script type="text/javascript">
@@ -127,11 +140,11 @@
             <div class="row align-items-center text-light">
                 <div class="col-10 offset-1 text-center">
                     <p class="lead mt-5 mb-0">
-                        Forms are <span class="text-primary">40 years</span> old 🎂.<br/> It's time to improve.
+                        <span class="my-0 d-none d-md-block">Forms are <span class="text-primary">40-year</span> old 🎂.<br/> It's time to improve.</span>
                     </p>
-                    <div class="display-4 font-weight-bold my-0 d-none d-md-block">
+                    <h1 class="display-4 font-weight-bold my-0 d-md-block">
                         Replace forms with <span class="text-primary">chatbots</span>.
-                    </div>
+                    </h1>
                 </div>
                 <div class="col-10 offset-1 col-lg-6 offset-lg-3 text-center">
                     <h1>
@@ -141,7 +154,7 @@
 
                 <div class="col-12 text-light text-center">
                     <div class="mb-4">
-                        <p class="lead">With <strong class="text-primary">86% SDK</strong>, turn all the forms in your mobile apps into chatbots and <strong class="text-primary">increase your results</strong> ✅</p>
+                        <p class="lead">With <strong class="text-primary">86% SDK</strong>, get super efficient chatbots in your apps instead of tedious forms.</p>
                     </div>
 
                     <div class="d-none d-md-block">
@@ -223,7 +236,7 @@
                         <span class="text-secondary"><del>No forms</del>.</span>
                         Chat.
                     </h1>
-
+					<p class="d-xl-none d-lg-none d-md-none">Forms are <span class="text-primary">40-year</span> old 🎂. It's time to improve.</p>
                     <p>Users hate forms. Especially on a smartphone with a small screen. That is why forms conversion rates are very low (25 to 30% is a standard).</p>
                     <p>With <strong>86% SDK</strong>, build in-app conversational interfaces lighting fast in your iOS and Android Apps. And get breakthrough conversion rates as high as 86%.</p>
 
