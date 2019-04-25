@@ -52,7 +52,7 @@
                             <div class="card-body">
                                 <img src="<?php print($aJson->{'user'}->{'profile_image_url_https'}); ?>" class="float-left rounded-circle mr-2" />
                                 <h5 class="card-title"><?php print($aJson->{'user'}->{'name'}); ?></h5>
-                                <h6 class="card-subtitle mb-2 text-muted"><a href="<?php print($urlUser)?>"> @<?php print($aJson->{'user'}->{'screen_name'}); ?></a></h6>
+                                <h6 class="card-subtitle mb-2 text-muted"><a href="<?php print($urlUser)?>" target="_blank"> @<?php print($aJson->{'user'}->{'screen_name'}); ?></a></h6>
                                 <p class="card-text"><?php print($tweetText); ?></p>
                                 <a href="<?php print($urlTweet); ?>" class="card-link"><i class="fab fa-twitter py-1" style="color:<?php echo $twitterColor?>"></i></a> <span class="float-right"><?php print($date->format('M d')); ?></span>
                             </div>
