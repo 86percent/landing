@@ -166,7 +166,7 @@
                                 <span class="far fa-hand-point-right fa-2x mr-3"></span>
                                 <span class="media-body">
                                     <span class="d-block"><small>Create a free account</small></span>
-                                    <strong class="font-size-1">Try 86%</strong>
+                                    <strong class="font-size-1">Try 86% now</strong>
                                 </span>
                             </span>
                         </a>
