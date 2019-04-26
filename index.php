@@ -75,16 +75,6 @@
             margin-top: 64px;
         }
 
-        .pills {
-			padding: 6px 12px 6px 12px;
-			margin-top: 14px;
-			margin-left: 6px;
-			background-color: white;
-			color: #383273;
-			border-radius: 25px;
-			white-space:nowrap;
-		}
-		
 		@media only screen and (max-width: 600px) {
 		  h1.display-4 {
 			  font-size: 2.4rem;
