@@ -37,34 +37,6 @@ $content = array(
         "image" => "Picture.svg"
     )
 );
-$links = array();
-$contents = array();
-$first = true;
-foreach ($content as $key => $values) {
-
-    if ( $first ){
-        $selected = 'true';
-        $linkClass = 'active';
-        $contentClass = 'show active';
-        $first = false;
-    } else {
-        $linkClass = '';
-        $selected = 'false';
-        $contentClass = '';
-    }
-
-    $links[] = '<li class="list-group-item">
-        <a class="nav-link '.$linkClass.'" id="v-pills-'.$key.'-tab" data-toggle="pill" href="#v-pills-'.$key.'" role="tab" aria-controls="v-pills-'.$key.'" aria-selected="'.$selected.'">'.
-            $content[$key]["title"].
-        '</a></li>';
-    $contents[] = '<div class="tab-pane '.$contentClass.' fade" id="v-pills-'.$key.'" role="tabpanel" aria-labelledby="v-pills-'.$key.'-tab">
-        <div class="text-center"><img src="images/components/'.$content[$key]["image"].'" /></div>
-        <div class="card-body">
-            <h5 class="card-title">'.$content[$key]["title"].'</h5>
-            <p class="card-text">'.$content[$key]["description"].'</p>
-        </div>
-        </div>';
-}
 ?>
 
 <div class="container">
@@ -75,27 +47,34 @@ foreach ($content as $key => $values) {
         </div>
     </div>
 
-    <div class="card-group">
-        <div class="card col-3">
-            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-            <ul class="list-group list-group-flush">
-            <?php 
-                foreach ($links as $i => $value) {
-                    print($links[$i]);
-                }
-            ?>
-            </ul>
-            </div>
-        </div>
-        <div class="card col-9">
-            <div class="tab-content" id="v-pills-tabContent">
+    <div class="accordion" id="accordionComponents">
             <?php
-                foreach ($contents as $i => $value) {
-                    print($contents[$i]);
-                }
+            $expanded = 'true';
+            foreach ($content as $key => $value) { 
+                $id = 'content'.$key;
+                ?>
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#<?php print($id); ?>" aria-expanded="<?php print($expanded); ?>" aria-controls="<?php print($id); ?>">
+                            <?php print($content[$key]["title"]); ?>
+                            </button>
+                        </h2>
+                    </div>
+
+                    <div id="<?php print($id); ?>" class="collapse <?php if($expanded == 'true'){ print(" show");}?>" aria-labelledby="headingOne" data-parent="#accordionComponents">
+                        <div class="card-body">
+                            <div class="text-center"><img src="images/components/<?php print($content[$key]["image"]) ?>" class="img-fluid mx-auto mb-3" /></div>
+                            <h5 class="card-title"><?php print($content[$key]["title"])?></h5>
+                            <p class="card-text"><?php print($content[$key]["description"])?></p>
+                        </div>
+                    </div>
+                </div>
+            <?php
+                $expanded = 'false';
+            } 
             ?>
-            </div>
-        </div>
     </div>
+
 </div>
 
