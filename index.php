@@ -144,7 +144,7 @@
 
                 <div class="col-12 text-light text-center">
                     <div class="mb-4">
-                        <p class="lead">With <strong class="text-primary">86% SDK</strong>, get super efficient chatbots in your apps instead of tedious forms.</p>
+                        <p class="lead">With <strong class="text-primary">86% SDK</strong>, get super efficient chatbots in your apps (instead of tedious forms).</p>
                     </div>
 
                     <div class="d-none d-md-block">
