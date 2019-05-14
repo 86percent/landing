@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="606px" height="250px" viewBox="0 0 606 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Boolean</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="350" height="155"></rect>
+        <filter x="-0.1%" y="-0.5%" width="100.1%" height="100.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="-0.5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.662745098   0 0 0 0 0.662745098   0 0 0 0 0.662745098  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="0" y="0" width="320" height="34" rx="17"></rect>
+        <filter x="-1.1%" y="-7.4%" width="102.2%" height="120.6%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.123273324 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-5" x="0" y="0" width="320" height="34" rx="17"></rect>
+        <filter x="-1.1%" y="-7.4%" width="102.2%" height="120.6%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.123273324 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="15.4651814%" x2="50%" y2="44.5110725%" id="linearGradient-7">
+            <stop stop-color="#A8A8A8" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#CCCCCC" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Boolean" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Picker" transform="translate(128.000000, 133.000000)">
+            <g id="Rectangle-3">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill-opacity="0.9" fill="#FAFAFA" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <g id="Group-2" transform="translate(15.000000, 14.000000)">
+                <g id="Chat/input">
+                    <g>
+                        <g id="Rectangle">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        </g>
+                        <g id="Chat/YesButton" transform="translate(291.078717, 4.722222)" fill="#FC5D60">
+                            <path d="M12.1282799,24.5555556 C5.43001586,24.5555556 -2.91322522e-13,19.0586072 -2.91322522e-13,12.2777778 C-2.91322522e-13,5.49694835 5.43001586,4.61852778e-14 12.1282799,4.61852778e-14 C18.8265439,4.61852778e-14 24.2565598,5.49694835 24.2565598,12.2777778 C24.2565598,19.0586072 18.8265439,24.5555556 12.1282799,24.5555556 Z M10.1839392,16.6323344 C10.2291304,16.7619452 10.3038108,16.8837631 10.4076651,16.9876174 C10.7745427,17.3544951 11.3617026,17.3529628 11.7247968,16.9898686 L19.7594392,8.95522619 C20.1268146,8.58785087 20.1215256,8.00243196 19.7571881,7.63809443 C19.3903105,7.2712168 18.8031506,7.27274902 18.4400563,7.63584327 L11.1377147,14.9381849 L7.35820154,11.206789 C6.98889291,10.842182 6.37721168,10.8421561 6.00020445,11.2148574 L6.03146755,11.1839514 C5.65823519,11.5529209 5.65120685,12.1573085 6.0242007,12.5255538 L10.1839392,16.6323344 Z" id="Combined-Shape-2"></path>
+                        </g>
+                    </g>
+                </g>
+                <g id="Chat/ButtonTextPlaceholder" transform="translate(118.500000, 17.500000) scale(1, -1) translate(-118.500000, -17.500000) translate(18.000000, 17.000000)" stroke="#000000" stroke-linecap="round" stroke-opacity="0.3" stroke-width="15">
+                    <path d="M2.09375,0.5 L198.90625,0.5" id="Line"></path>
+                </g>
+            </g>
+            <g id="Group" transform="translate(15.000000, 58.000000)">
+                <g id="Chat/input">
+                    <g>
+                        <g id="Rectangle">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                        </g>
+                        <g id="Chat/NoButton" transform="translate(291.078717, 4.722222)" fill="#BFBFBF">
+                            <path d="M12.1282799,24.5555556 C5.43001586,24.5555556 -2.91322522e-13,19.0586072 -2.91322522e-13,12.2777778 C-2.91322522e-13,5.49694835 5.43001586,4.61852778e-14 12.1282799,4.61852778e-14 C18.8265439,4.61852778e-14 24.2565598,5.49694835 24.2565598,12.2777778 C24.2565598,19.0586072 18.8265439,24.5555556 12.1282799,24.5555556 Z M13.6538359,12.334453 L17.0114656,8.97682322 C17.3788409,8.60944789 17.373552,8.02402899 17.0092145,7.65969146 C16.6423368,7.29281383 16.0551769,7.29434605 15.6920827,7.6574403 L12.334453,11.01507 L8.97682322,7.6574403 C8.61372896,7.29434605 8.02656908,7.29281383 7.65969146,7.65969146 C7.29535393,8.02402899 7.29006498,8.60944789 7.6574403,8.97682322 L11.01507,12.334453 L7.6574403,15.6920827 C7.29006498,16.059458 7.29535393,16.6448769 7.65969146,17.0092145 C8.02656908,17.3760921 8.61372896,17.3745599 8.97682322,17.0114656 L12.334453,13.6538359 L15.6920827,17.0114656 C16.0551769,17.3745599 16.6423368,17.3760921 17.0092145,17.0092145 C17.373552,16.6448769 17.3788409,16.059458 17.0114656,15.6920827 L13.6538359,12.334453 Z" id="Combined-Shape-2"></path>
+                        </g>
+                    </g>
+                </g>
+                <g id="Chat/ButtonTextPlaceholder" transform="translate(88.000000, 17.500000) scale(1, -1) translate(-88.000000, -17.500000) translate(18.000000, 17.000000)" stroke="#000000" stroke-linecap="round" stroke-opacity="0.3" stroke-width="15">
+                    <path d="M1.45833333,0.5 L138.541667,0.5" id="Line"></path>
+                </g>
+            </g>
+        </g>
+        <rect id="Rectangle" stroke="url(#linearGradient-7)" stroke-width="2" x="129" y="1" width="348" height="248"></rect>
+        <g id="Chat/Message-Left" transform="translate(143.000000, 65.000000)">
+            <g id="B&amp;B-Message">
+                <g id="Chat/FirstMessageBg" fill="#FC5D60" fill-opacity="0.232393569">
+                    <path d="M154,29.6894466 C154.056449,38.0554397 154.573563,39.7159097 158,42.9291992 C155.509321,42.9291992 152.622126,41.5828746 150.65406,40.4649526 C148.886387,42.0417198 146.555103,43 144,43 L10,43 C4.4771525,43 6.76353751e-16,38.5228475 0,33 L-1.77635684e-15,10 C-2.45271059e-15,4.4771525 4.4771525,9.89631482e-15 10,8.8817842e-15 L144,1.0658141e-14 C149.522847,9.64361041e-15 154,4.4771525 154,10 L154,29.6894466 Z" id="Combined-Shape" transform="translate(79.000000, 21.500000) scale(-1, 1) translate(-79.000000, -21.500000) "></path>
+                </g>
+                <text id="text" font-family="SFUIText-Regular, SF UI Text" font-size="17" font-weight="normal" letter-spacing="-0.409999996"></text>
+            </g>
+        </g>
+    </g>
+</svg>

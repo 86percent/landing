@@ -160,21 +160,6 @@
                                 </span>
                             </span>
                         </a>
-
-                        <!-- <button
-                                type="button"
-                                class="btn btn-secondary transition-3d-hover text-left mb-2 mx-2"
-                                data-toggle="modal"
-                                data-target="#modal1"
-                                onclick="gtag('event', 'open_video_section0', {'event_category': 'video','event_label': 'open_section0','value': 'https://www.youtube.com/watch?v=DFQHFpFOVYc'});">
-                            <span class="media align-items-center">
-                                <span class="fab fa-youtube fa-2x mr-3"></span>
-                                <span class="media-body">
-                                    <span class="d-block"><small>Watch our video</small></span>
-                                    <strong class="font-size-1">86% SDK in a nutshell</strong>
-                                </span>
-                            </span>
-                        </button> -->
                     </div>
                     <!-- Download App buttons  -->
                     <div class="d-block d-md-none">
@@ -273,117 +258,16 @@
         </div>
     </section>
 
-<!--    <section id="section3" class="d-none d-md-block">
-        <div class="container text-light">
-            <div class="row align-items-center h-100">
-                <div class="col-5">
-                    <h1 class="display-4 font-weight-bold"><span class="text-dark"><del>No forms.</del></span> Conversations.</h1>
-                    <p>Conversational interfaces are <strong>more human</strong>, dramatically smoother than forms, and help you sharing your DNA with your App's users. And people are so familiar with messaging-like interfaces (e.g. WhatsApp, Facebook Messenger), that <strong>they will read what you write</strong>.<br/>Awesome, right?</p>
-                </div>
-                <div class="col h-100 w-100 text-right" > &lt;!&ndash; style="background: url('images/1.svg') no-repeat right bottom; background-size: contain; " &ndash;&gt;
-                    <img src="images/3.png" class="img-fluid" style="margin-top: 64px;">
-                </div>
-            </div>
-        </div>
-    </section>-->
-
-    <?php include('./includes/twitter.php') ?>
+    <section id="components" class="section my-4">
+        <?php include('./includes/components.php') ?>
+    </section> 
 
     <section id="section4" >
+        <?php include('./includes/features.php') ?>
+        
+        <?php include('./includes/twitter.php') ?>
+
         <div class="container">
-            <div class="row text-center">
-                <div class="col">
-                    <h1 class="display-4 font-weight-bold" style="margin-top:64px;"><span class="text-secondary">Easy.</span> Yet powerful.</h1>
-                    <p><strong>86% SDK</strong> comes with great features. Here are some of them:</p>
-
-                    <!--<p>In 3 simple steps you get your conversational interface up and running:</p>-->
-                    <!--<p><span class="badge badge-pill badge-primary"><strong style="font-size: 2em;">1</strong></span> Define your conversation within our web editor.</p>-->
-                    <!--<img src="images/editor.png" class="img-fluid" />-->
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-12 mb-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <i class="fas fa-language icon-features py-1"></i>
-                            <div class="py-3">
-                                <h5 class="card-title">Multilingual</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">As many languages as you need</h6>
-                            </div>
-                            <div class="clearfix"></div>
-                            <p class="card-text">In the <strong>86% Editor</strong>, you define your conversation once and translate it very easily.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-12 mb-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <i class="fas fa-handshake icon-features py-1"></i>
-                            <div class="py-3">
-                                <h5 class="card-title">Privacy</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">Be transparent with your users</h6>
-                            </div>
-                            <div class="clearfix"></div>
-                            <p class="card-text">You have a built-in "privacy notice" for your users (GDPR-ready!). And we don't store anything sensitive on our side.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-12 mb-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <i class="fas fa-project-diagram icon-features py-1" ></i>
-                            <div class="py-3">
-                                <h5 class="card-title">A/B Testing</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">Experiment different scenarios</h6>
-                            </div>
-                            <div class="clearfix"></div>
-                            <p class="card-text">You can A/B test your bots at different levels. So that you can refine your bot to optimize its conversion rate.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-12 mb-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <i class="fas fa-candy-cane icon-features py-1" ></i>
-                            <div class="py-3">
-                                <h5 class="card-title">Built-in widgets</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">To make your life easy</h6>
-                            </div>
-                            <div class="clearfix"></div>
-                            <p class="card-text">To get data, you have plenty of built-in widgets to ask names, emails, dates, tags, documents, single choice...</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-12 mb-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <i class="fas fa-award icon-features py-1"></i>
-                            <div class="py-3">
-                                <h5 class="card-title">Scalable & reliable</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">Serverless architecture</h6>
-                            </div>
-                            <div class="clearfix"></div>
-                            <p class="card-text"><strong>86% SDK</strong> can run without internet. And if it's online, bots are updated with the latest versions available.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-12 mb-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <i class="fas fa-chart-line icon-features py-1"></i>
-                            <div class="py-3">
-                                <h5 class="card-title">Analytics</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">Measure what happens</h6>
-                            </div>
-                            <div class="clearfix"></div>
-                            <p class="card-text">
-	                            Analytics are available in the <strong>86% Editor</strong> to take smart decisions for your bots. Adjust your bots. Measure. Iterate.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
             <!-- Begin MailChimp Signup Form -->
             <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
             <style type="text/css">

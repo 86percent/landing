@@ -44,6 +44,14 @@
                     $urlUserMention = 'https://twitter.com/' . $userMention->{'screen_name'};
                     $tweetText = str_replace('@'.$userMention->{'screen_name'}, '<a target="_blank" href="'.$urlUserMention.'">@'.$userMention->{'screen_name'}.'</a>', $tweetText);
                 }
+                
+                if ( array_key_exists('media', $aJson->{'entities'}) ){
+                    foreach( $aJson->{'entities'}->{'media'} as $media ) {
+                        if ( $media->{'type'} == "photo"){
+                            $tweetText = str_replace(''.$media->{'url'}, '<img src="'.$media->{'media_url_https'}.'" class="rounded img-fluid" />', $tweetText);
+                        }
+                    }
+                }
 
                 if(isset($aJson->{'id_str'})) {
                     ?>
@@ -62,8 +70,11 @@
                     
                 }
             }
+            //  <textarea><?php print($response)\?\></textarea>
+
             ?>
 
+            
         </div>
     </div>		
 </section>
