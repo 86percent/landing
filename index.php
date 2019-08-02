@@ -13,10 +13,10 @@
     </script>
 
     <!-- Required meta tags -->
-    <title>86%: in-app chatbots made easy</title>
+    <title>86%: in-app conversations made easy</title>
 
     <meta name="description" content="86% is a SDK to build awesome conversational interfaces (chatbots) in your mobile Apps, on iOS and Android. The result: users will read what you write, and you'll convert users super efficiently.">
-    <meta name="author" content="86% SDK">
+    <meta name="author" content="86%">
     <meta name="keywords" content="mobile,application,development,programming,SDK,chat,bot,chatbot,SDK,iOS,Android,form,UX,iphone, smartphone">
 
     <meta property='og:title' content="86% - Live conversations, real conversions"/>
@@ -133,7 +133,7 @@
                         <span class="my-0 d-none d-md-block">Forms are <span class="text-primary">40-year</span> old 🎂.<br/> It's time to improve.</span>
                     </p>
                     <h1 class="display-4 font-weight-bold my-0 d-md-block">
-                        Replace forms with <span class="text-primary">chatbots</span>.
+                        Replace forms with <span class="text-primary">conversations</span>.
                     </h1>
                 </div>
                 <div class="col-10 offset-1 col-lg-6 offset-lg-3 text-center">
@@ -144,7 +144,7 @@
 
                 <div class="col-12 text-light text-center">
                     <div class="mb-4">
-                        <p class="lead">With <strong class="text-primary">86% SDK</strong>, get super efficient chatbots in your apps (instead of tedious forms).</p>
+                        <p class="lead">With <strong class="text-primary">86%</strong>, get super efficient conversations in your apps (instead of tedious forms).</p>
                     </div>
 
                     <div class="d-none d-md-block">
@@ -164,7 +164,7 @@
                     <!-- Download App buttons  -->
                     <div class="d-block d-md-none">
                         <?php include('./includes/appButtons.php') ?>
-                        <p style="font-size: 0.8em;">To learn more about 86% SDK, try out the demo Apps!</p>
+                        <p style="font-size: 0.8em;">To learn more about 86%, try out the demo Apps!</p>
                     </div>
                 </div>
             </div>
@@ -212,8 +212,8 @@
                         Chat.
                     </h1>
 					<p class="d-xl-none d-lg-none d-md-none">Forms are <span class="text-primary">40-year</span> old 🎂. It's time to improve.</p>
-                    <p>Users hate forms. Especially on a smartphone with a small screen. That is why forms conversion rates are very low (25 to 30% is a standard).</p>
-                    <p>With <strong>86% SDK</strong>, build in-app conversational interfaces lighting fast in your iOS and Android Apps. And get breakthrough conversion rates as high as 86%.</p>
+                    <p>Users hate forms. Especially on a smartphone with a small screen. This is why forms have super low conversion rates (25 to 30% is a standard).</p>
+                    <p>With <strong>86%</strong>, build in-app conversational interfaces lighting fast in your iOS and Android Apps. And get breakthrough conversion rates as high as 86%.</p>
 
                     <!-- TODO d-none d-md-block -->
                     <button type="button" class="btn btn-primary transition-3d-hover text-left mb-2" data-toggle="modal" data-target="#modal1"
@@ -222,7 +222,7 @@
                             <span class="fab fa-youtube fa-2x mr-3"></span>
                             <span class="media-body">
                                 <span class="d-block"><small>Watch our video</small></span>
-                                <strong class="font-size-1">86% SDK overview</strong>
+                                <strong class="font-size-1">86% overview</strong>
                             </span>
                         </span>
                     </button>
@@ -245,8 +245,8 @@
                 <div class="col-12 col-lg-6 text-right align-self-center mb-4">
                     <img src="images/planet.png" class="mt-4 mr-4">
                     <h1 class="display-4 font-weight-bold"><span class="text-primary">User onboarding.</span> Perfected.</h1>
-                    <p>Onboarding users is tough in Mobile Apps. It's a great use-case where <strong>86% SDK</strong> can excel in increasing your conversion rate.</p>
-                    <p>And you can use <strong>86% SDK</strong> for many other use-cases:
+                    <p>Onboarding users is tough in Mobile Apps. It's a great use-case where <strong>86%</strong> can excel in increasing your conversion rate.</p>
+                    <p>And you can use <strong>86%</strong> for many other use-cases:
                         <div>
                             <span class="badge badge-pill badge-primary">payment funnels</span> 
                             <span class="badge badge-pill badge-primary">user surveys</span> 
@@ -283,7 +283,7 @@
                     <div id="mc_embed_signup_" style="max-width: 600px;margin:auto;">
 
                         <h1 class="display-4 font-weight-bold" style="margin-top:64px;"><span class="text-secondary">Stay</span> tuned!</h1>
-                        <p>To follow the latest evolutions of 86% SDK, register to our newsletter.</p>
+                        <p>To follow the latest evolutions of 86%, register to our newsletter.</p>
 
                     <form action="https://86percent.us19.list-manage.com/subscribe/post?u=0219dc02fad7c5d593d04c8f8&amp;id=2f38c3b46c"
                           method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"

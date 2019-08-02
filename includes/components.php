@@ -43,7 +43,8 @@ $content = array(
     <div class="row text-center">
         <div class="col">
             <h1 class="display-4 font-weight-bold" style="margin-top:64px;">Components</h1>
-            <p><strong>86% SDK</strong> comes with integrated (codeless) components, to ask users any question.</p>
+            <p><strong>86%</strong> comes with integrated (codeless) components, to ask users any question.</p>
+            <p>And if you need more, you have many possibilities for customization (custrom controller, custom cells, theming...)</p>
         </div>
     </div>
 

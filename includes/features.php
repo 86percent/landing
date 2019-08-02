@@ -28,13 +28,13 @@ $content = array(
     "scalable" => array (
         "title" => "Scalable & reliable",
         "subtitle" => "Serverless architecture",
-        "description" => "<strong>86% SDK</strong> can run without internet. And if it's online, bots are updated with the latest versions available.",
+        "description" => "<strong>86%</strong> can run without internet. And if it's online, bots are updated with the latest versions available.",
         "iconClass" => "fas fa-award"
     ),
     "Analytics" => array (
-        "title" => "Analytics",
+        "title" => "Analytics & AI",
         "subtitle" => "Measure what happens",
-        "description" => "Analytics are available in the <strong>86% Editor</strong> to take smart decisions for your bots. Adjust your bots. Measure. Iterate.",
+        "description" => "Analytics (and soon AI!) are available in the <strong>86% Editor</strong> to take smart decisions for your bots. Adjust your bots. Measure. Iterate.",
         "iconClass" => "fas fa-chart-line"
     )
 );
@@ -46,7 +46,7 @@ $content = array(
         <div class="row text-center">
             <div class="col">
                 <h1 class="display-4 font-weight-bold" style="margin-top:64px;"><span class="text-secondary">Easy.</span> Yet powerful.</h1>
-                <p><strong>86% SDK</strong> comes with great features. Here are some of them:</p>
+                <p><strong>86%</strong> comes with great features. Here are some of them:</p>
             </div>
         </div>
         <div class="row">
