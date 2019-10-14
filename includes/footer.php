@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-12 col-md">
             <img src="images/eightysix_long.svg" >
-            <small class="d-block mb-3 text-muted">© 2018-2019</small>
+            <small class="d-block mb-3 text-muted">© 2018-<?php echo date('Y');?></small>
         </div>
         <!--<div class="col-12 col-md">-->
             <!--<h5>Features</h5>-->
