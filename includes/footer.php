@@ -27,7 +27,7 @@
         <div class="col-6 col-md">
             <h5>About</h5>
             <ul class="list-unstyled text-small">
-                <li><a class="text-muted" href="mailto:contact@86percent.co">Contact us</a></li>
+                <li><a class="text-muted" href="mailto:contact@lunabee.com">Contact us</a></li>
                 <li><a class="text-muted" href="https://www.linkedin.com/company/86percent/" target="_blank">Linkedin</a></li>
                 <li><a class="text-muted" href="https://twitter.com/86percentSdk" target="_blank">Twitter</a></li>
                 <li><a class="text-muted" href="https://www.youtube.com/channel/UCBpZPBM6fGc0gIZDq4iplGA" target="_blank">Youtube</a></li>
